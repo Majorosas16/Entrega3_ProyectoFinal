@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css" type="text/css">
+    <title>Login</title>
+</head>
+<body class="contenedor">
+    <section class="contenedor__cajita">
+        <div class="contenedor__cajita--logo">
+            <img src="Capa 2.png" alt="logo"></div>
+        <div class="contenedor__cajita--ini">
+            <p class="p--rojo">INICIAR SESIÓN</p>
+            <p class="p--negroemail">Email o nombre de usuario</p>
+            <div class="contenedor__cajita--input">
+                <i class="fa fa-user icon"></i>
+                <input class="lineInput" type="email" placeholder="user123@gmail.com" required>
+            </div>   
+            <p class="p--negrocontrasena">Contraseña</p>
+            <div class="contenedor__cajita--input">
+                <i class="fa fa-lock icon"></i>
+                <input class="lineInput" type="password" placeholder="*****">
+            </div>                 
+        </div>
+        <div class="contenedor__cajita--bottomrecuerdame">
+            <input type="checkbox" id="remember-me-checkbox" onclick="toggleRemember()">
+            <label for="remember-me-checkbox"></label>
+            <p class="rememberMeLabel">Recuérdame</p>
+        </div>
+        <a href="MainMenu.html"><button class="contenedor__cajita--ingresar">Ingresar</button></a>
+        <div class="linea">
+            <div class="lineaMensaje"></div>
+            <p class="lineaMensajeText">o inicia con</p>
+            <div class="lineaMensaje"></div>
+        </div>
+        <div class="contenedor__cajita--iconosredes">
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href="#"> <i class="fab fa-apple"></i></a>
+        </div>
+        <div>
+            <p class="contenedor__cajita--textofinal">¿No te has unido a nuestro sinsajo?, ¿qué esperas?<a href="registro.html" class="contenedor__cajita--textofinal__link">Regístrate aquí</a> y únete a nuestra revolución.</p>
+        </div>
+    </section>
+    <section class="img"></section>
+</body>
+<footer>
+    <script src="Script/script.js"></script>
+</footer>
+</html>
