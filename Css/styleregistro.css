@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/72/e8/42/72e8425bb12673e2f3f6bfbf54f9a6d1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%vw;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contenedor__cajita {
+    background-color: white;
+    width: 450px;
+    height: 580px;
+    border-radius: 1.8rem;
+}
+
+.contenedor__cajita--logo {
+    position: absolute;
+    top: 30px; 
+    left: 50%;
+    transform: translateX(-50%) scale(0.6);
+}
+
+.contenedor__cajita--registro {
+    font-weight: bold;
+    color: #B00000;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.p--negro {
+    font-size: 0.71rem;
+    color: black;
+    margin-top: 1.1rem;
+    margin-right: 7.3rem;
+}
+
+.p--negro2 {
+    font-size: 0.71rem;
+    color: black;
+    margin-top: 0.8rem;
+    margin-right: 12.3rem;
+}
+
+.p--negro3 {
+    font-size: 0.71rem;
+    color: black;
+    margin-top: 0.8rem;
+    margin-right: 6.6rem;
+}
+
+.p--negro4 {
+    font-size: 0.71rem;
+    color: black;
+    margin-top: 0.8rem;
+    margin-right: 10.1rem;
+}
+
+.contenedor__cajita--input {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.35rem;
+    margin-right: 1rem;
+}
+
+.contenedor__cajita--input i {
+    margin-right: 0.5rem; 
+    color: #000000; 
+}
+
+.lineInput {
+    flex: 1;
+    border: none;
+    border-bottom: 0.01rem solid #000000;
+    width: 300px;
+    outline: none;
+    font-size: 0.75rem; 
+}
+
+.lineInput::placeholder {
+    transform: translateY(-20%);
+}
+
+.lineInput:focus {
+    border-bottom-color: #B00000;
+}
+
+.contenedor__cajita--ingresar {
+    padding: 0.3rem 2rem;
+    margin-top: 2rem  ;
+    border: none;
+    border-radius: 1.6rem;
+    background: linear-gradient(45deg, #B75601, #D8B504); 
+    color: #FFFFFF; 
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease; 
+}
+
+.contenedor__cajita--ingresar:hover {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+}
+
+

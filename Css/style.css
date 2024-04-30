@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.contenedor__cajita {
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    position: relative; 
+}
+
+.contenedor__cajita--logo {
+    position: absolute;
+    top: 50px; 
+    left: 50%;
+    transform: translateX(-50%) scale(0.7);
+}
+
+.contenedor__cajita--ini {
+    margin-bottom: 6rem;
+    color: #B00000;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 1.9rem;
+}
+
+.p--rojo {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 1rem; 
+    color: #B00000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p--negroemail {
+    margin-top: 12rem;
+    margin-right: 1.6rem;
+    font-size: 0.8rem;
+    color: #000000;
+    text-align: center;
+}
+
+.p--negrocontrasena {
+    margin-top: 1.2rem;
+    margin-right: 7.9rem;
+    font-size: 0.8rem;
+    color: #000000;
+    text-align: center;
+}
+
+.contenedor__cajita--input {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 0.8rem;
+}
+
+.contenedor__cajita--input i {
+    margin-right: 0.5rem; 
+    color: #000000; 
+}
+
+.lineInput {
+    flex: 1;
+    border: none;
+    border-bottom: 0.01rem solid #000000;
+    padding-right: 1.1rem;
+    width: 275px;
+    outline: none;
+    font-size: 0.75rem; 
+}
+
+.lineInput::placeholder {
+    transform: translateY(-20%);
+}
+
+.lineInput:focus {
+    border-bottom-color: #B00000;
+}
+
+.contenedor__cajita--bottomrecuerdame {
+    position: relative;
+    margin-top: -6rem;
+    margin-right: 10rem;
+}
+
+.contenedor__cajita--bottomrecuerdame input {
+    visibility: hidden;
+}
+
+.contenedor__cajita--bottomrecuerdame label {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 0.05rem solid #000;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    vertical-align: middle;
+    background-color: #00000023;
+}
+
+.contenedor__cajita--bottomrecuerdame input:checked + label {
+    background-color: #000000;
+}
+
+.rememberMeLabel {
+    display: inline-block;
+    font-size: 0.75rem;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.contenedor__cajita--ingresar {
+    padding: 0.2rem 1rem;
+    margin-top: 0.8rem  ;
+    border: none;
+    border-radius: 1.6rem;
+    background: linear-gradient(45deg, #B75601, #D8B504); 
+    color: #FFFFFF; 
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.3s ease; 
+}
+
+.contenedor__cajita--ingresar:hover {
+    background: linear-gradient(45deg, #FFD700, #FFA500);
+}
+
+.linea {
+    display: flex;
+    align-items: center;
+}
+
+.lineaMensaje {
+    flex-grow: 2;
+    height: 1px;
+    width: 85px;
+    background-color: #000; 
+    margin-top: 1rem;
+}
+
+.lineaMensajeText {
+    margin: 0 0.5rem; 
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.contenedor__cajita--iconosredes {
+    scale: 1.1;
+    margin-top: 0.5rem;
+    color: black;
+}
+
+.contenedor__cajita--iconosredes .fab {
+    color: black;
+}
+
+.contenedor__cajita--textofinal {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+}
+
+.contenedor__cajita--textofinal__link {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-left: 1rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+.img {
+    flex-grow: 1;
+    background-image: url("https://i.pinimg.com/564x/ec/ef/e8/ecefe8539b0404b1220a7c5a26c97dca.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
