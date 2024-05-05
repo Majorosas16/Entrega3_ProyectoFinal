@@ -154,23 +154,7 @@ transition: all 400ms ease;
     transform: scale(1.2);  
     }
 
-.modal{
-position: fixed;
-top: 0;
-left: 0;
-background: rgba(0, 0, 0, 0.5);
-transition: all 500ms ease;
-visibility: hidden;
-left: 32%;
-margin-top: 10rem;
-
-
-    }
-    #btn:checked ~ .modal{
-        visibility: visible;
-
-    }
-    .contenedor{
+.contenedor{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -537,7 +521,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         }
         .btnEquipo{
             position: absolute;
-            width: 15%;
+            width: 20%;
             display: flex;
             justify-content: center;
             align-content: center;
@@ -551,8 +535,8 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         border-radius: 50px;
         z-index: 1;
         position: absolute;
-        left: 42%;
-        top: 243%;
+        left: 40%;
+        top: 126%;
         transition: all 400ms ease;
         }
 
