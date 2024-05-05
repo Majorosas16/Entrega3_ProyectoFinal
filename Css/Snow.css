@@ -6,6 +6,17 @@
     font-size: 1rem;
 }
 
+:root{
+    --color1: rgb(0, 0, 0);
+    --background: linear-gradient(0deg, rgba(155,17,17,0) 0%, rgba(0,0,0,1) 62%);
+    --color2: rgb(27, 26, 26);
+    --hover: rgb(228, 156, 56);
+    --hover3: #D6AE04;
+    --hover2: rgb(203, 80, 31);
+    --color2text: white;
+    
+    }
+
 body {
     background-color: #751B12;
 }
@@ -284,21 +295,79 @@ nav {
 }
 
 
-.footer {
-    background-color: #000;
-    color: #fff;
-    padding: 0.5rem;
-    margin-top: -12rem;
-    text-align: center;
-}
+   /* footer */
 
-.footer img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 0.1rem; 
-    transform: scale(0.5);
-}
+   .pie-pagina{
+    padding-top: 2rem;
+    width: 100%;
+    background-color: var(--color1);
+    }
+    
+    .pie-pagina .grupo-1{
+    width: 50%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
 
-.footer p {
-    margin-bottom: 0.5rem; 
-}
+    }
+    
+    .pie-pagina .grupo-1 .box figure{
+        width: 50%;
+        height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        }
+    
+    .pie-pagina .grupo-1 .box figure img{
+        width: 200px;
+        transition: all 400ms ease;
+    }
+
+    .pie-pagina .grupo-1 .box figure img:hover{
+    transform: scale(1.1);   
+    }
+    
+    .pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+    
+    }
+    
+    .pie-pagina .grupo-1 .box p{
+        color: white;
+        margin-bottom: 15px;
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        margin-right: 10px;
+        background-color: var(--hover);
+        text-align: center;
+        transition: all 400ms ease;
+    
+    }
+    
+    .pie-pagina .grupo-1 .red-social a:hover{
+        color: var(--hover2);
+    }
+    
+    .pie-pagina .grupo-2{
+        background-color: var(--color2);
+        padding: 15px 10px;
+        color: white;
+        text-align: center;
+    }
+
