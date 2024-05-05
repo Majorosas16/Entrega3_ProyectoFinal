@@ -11,6 +11,7 @@ const renderizarPersonajes = async () =>{
     const personajeDiv = document.querySelector("#personajeDiv");
 
     for (const perso of data){
+        
         const instanciaPersonaje= new Personaje(
             perso.id,
             perso.nombre,
