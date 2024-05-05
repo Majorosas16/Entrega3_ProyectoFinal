@@ -11,7 +11,7 @@
             "edad": "16 (Los Juegos del Hambre) 17 (En Llamas y Sinsajo) 35+(Epílogo)",
             "genero": "Masculino",
             "alias": "El chico del pan, El panadero, Chico enamorado, Chico amoroso",
-            "ocupación": "Tributo, panadero, pintor, vencedor",
+            "ocupacion": "Tributo, panadero, pintor, vencedor",
             "estadoCivil": "Casado",
             "familia": "Katniss Everdeen(Esposa) Sr. Mellark (padre)Sra. Mellark (madre) Hermano mayor Hermano Hija Hijo"
         },
@@ -26,7 +26,7 @@
             "edad": "16 (Los Juegos del Hambre) 17 (En Llamas y Sinsajo) 35+(Epílogo)",
             "genero": "Femenino",
             "alias": "Catnip, Chica en llamas, El Sinsajo",
-            "ocupación": "Tributo, vencedora, Cazadora,Rebelde, El Sinsajo",
+            "ocupacion": "Tributo, vencedora, Cazadora,Rebelde, El Sinsajo",
             "estadoCivil": "Casada",
             "familia": "Peeta Mellark (esposo) Primrose Everdeen (hermana) Sra. Everdeen (madre) Sr. Everdeen(padre) Willow Mellark (hija) Rye Mellark (hijo)"
         },
@@ -41,7 +41,7 @@
             "edad": "84 años",
             "genero": "Masculino",
             "alias": "Presidente Snow",
-            "ocupación": "Presidente de Panem",
+            "ocupacion":"Presidente de Panem",
             "estadoCivil": "Casado",
             "familia": "Crassus Snow (padre), Madre (fallecida), Tigris Snow (prima), Esposa desconocida (posiblemente Livia Cardew), Hijo o hija desconocido Nieta"
         },
@@ -57,7 +57,7 @@
             "edad": "18 (Los Juegos del Hambre) 19 (En Llamas, Sinsajo)",
             "genero": "Masculino",
             "alias": "Gale",
-            "ocupación": "Cazador, minero, oficial",
+            "ocupacion": "Cazador, minero, oficial",
             "estadoCivil": "Soltero",
             "familia": "Hazelle Hawthorne (madre) Rory Hawthorne (hermano)Vick Hawthorne (hermano) Posy Hawthorne (hermana) "
         },
@@ -72,7 +72,7 @@
             "edad": "Alrededor de 40",
             "genero": "Femenino",
             "alias": "Sra. Everdeen",
-            "ocupación": "Sanadora",
+            "ocupacion": "Sanadora",
             "estadoCivil": "Viuda",
             "familia": "Sr. Everdeen (esposo) Katniss Everdeen (hija) Primrose Everdeen (hija) Peeta Mellark (yerno) Hija de Katniss y Peeta (nieta)Hijo de Katniss y Peeta (nieto)"
         },
@@ -87,7 +87,7 @@
             "edad": "Alrededor de 30",
             "genero": "Masculino",
             "alias": "Cinna",
-            "ocupación": "Estilista",
+            "ocupacion": "Estilista",
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce"
         },
@@ -102,7 +102,7 @@
             "edad": "12",
             "genero": "Femenino",
             "alias": "Rue",
-            "ocupación": "Tributo",
+            "ocupacion": "Tributo",
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce"
         },
@@ -117,7 +117,7 @@
             "edad": "18",
             "genero": "Masculino",
             "alias": "El monstruoso Chico del Distrito 2 ",
-            "ocupación": "Tributo Profesional",
+            "ocupacion": "Tributo Profesional",
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce"
         },
@@ -132,7 +132,7 @@
             "edad": "40 (Los Juegos del Hambre) 41 (En Llamas y Sinsajo)",
             "genero": "Masculino",
             "alias": "Haymitch",
-            "ocupación": "Mentor, Vencedor y Rebelde ",
+            "ocupacion": "Mentor, Vencedor y Rebelde ",
             "estadoCivil": "Soltero",
             "familia": "Madre fallecida Hermano menor fallecido Novia fallecida"
         },
@@ -147,7 +147,7 @@
             "edad": "Se desconoce",
             "genero": "Femenino",
             "alias": "Effie Trinket",
-            "ocupación": "Escolta de los tributos del Distrito 12",
+            "ocupacion": "Escolta de los tributos del Distrito 12",
             "estadoCivil": "Se desconoce",
             "familia": "Desconocido (libro) / Haymitch Abernathy (novio)"
         },
@@ -162,7 +162,7 @@
             "edad": "12 (Los Juegos del Hambre) 13 (En Llamas, Sinsajo)",
             "genero": "Femenino",
             "alias": "Prim Patito",
-            "ocupación": "Escolta de los tributos del Distrito 12",
+            "ocupacion": "Escolta de los tributos del Distrito 12",
             "estadoCivil": "Se desconoce",
             "familia": "Katniss Everdeen (hermana)Sra. Everdeen (madre)Sr. Everdeen (padre) Peeta Mellark (cuñado) Sobrino Sobrina Buttercup (mascota) Lady (mascota) "
         },
@@ -177,7 +177,7 @@
             "edad": "24",
             "genero": "Masculino",
             "alias": "Finnick Odair",
-            "ocupación": "Tributo, Mentor",
+            "ocupacion": "Tributo, Mentor",
             "estadoCivil": "Casado",
             "familia": "Annie Cresta (esposa) Hijo"
         },
@@ -192,7 +192,7 @@
             "edad": "Alrededor de 50",
             "genero": "Femenino",
             "alias": "Presidente Coin Coin",
-            "ocupación": "Presidente del Distrito 13 Co-líder de las fuerzas rebeldes Presidente Interina de Panem ",
+            "ocupacion": "Presidente del Distrito 13 Co-líder de las fuerzas rebeldes Presidente Interina de Panem ",
             "estadoCivil": "Viuda",
             "familia": "Se desconoce"
         },
@@ -207,7 +207,7 @@
             "edad": "Alrededor de 40",
             "genero": "Masculino",
             "alias": "Boggs",
-            "ocupación": "Soldado",
+            "ocupacion": "Soldado",
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce"
         },
@@ -222,7 +222,7 @@
             "edad": "19-20",
             "genero": "Femenino",
             "alias": "Annie Cresta",
-            "ocupación": "Tributo, vencedora",
+            "ocupacion": "Tributo, vencedora",
             "estadoCivil": "Viuda",
             "familia": "Se desconoce"
         }
