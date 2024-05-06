@@ -342,7 +342,7 @@ transition: all 400ms ease;
     
         .Personajes__contenedor--H2{
             color: var(--color2text);
-            font-size: 2rem;
+            font-size: 1.8rem;
             font-weight: lighter;
             margin-bottom: 2rem;
         }
@@ -452,7 +452,7 @@ transition: all 400ms ease;
 
     .characters__cont--C1{
 
-        width: 31%;
+        width: 30%;
         height: 800%; 
        display: flex;
 justify-content: center;
@@ -519,7 +519,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         z-index: 1;
         position: absolute;
         left: 40%;
-        top: 315%;
+        bottom: -389%;
         transition: all 400ms ease;
         }
 
