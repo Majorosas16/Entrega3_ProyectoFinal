@@ -113,7 +113,7 @@ justify-content: center;
 
 .banner{
 background-color: var(--color1);
-background-image: url(/.recursos/Katnissbanner.png);
+background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/KatnissBanner.png?raw=true);
 background-repeat: no-repeat, repeat;
 background-size: 1360px 780px;
 width: 100%; /*Que abarque toda la pagina*/
@@ -305,7 +305,7 @@ transition: all 800ms ease;
     .Personajes{
         background: linear-gradient(0deg, rgba(155,17,17,1) 0%, rgba(92,1,1,1) 100%);
         width: 100%;
-        height: 30vh;
+        height: 22vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -334,7 +334,7 @@ transition: all 800ms ease;
     .sagaPeliculas{
         background: rgb(114, 12, 12);
         width: 100%;
-        height: 50vh;
+        height: 45vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -355,7 +355,7 @@ transition: all 800ms ease;
         justify-content: end;
         align-items: center;
         width: 22%;
-        height: 62%;
+        height: 50%;
 
     }
 
@@ -365,7 +365,7 @@ transition: all 800ms ease;
         justify-content: start;
         align-items: center;
         width: 22%;
-        height: 62%;
+        height: 50%;
     }
 
 
@@ -411,29 +411,31 @@ transition: all 800ms ease;
     .characters{
         background: rgb(114, 12, 12);
         width: 100%;
-        height: 80vh;
+        flex-wrap: wrap; 
         display: flex;
         justify-content: center;
         align-items: start;
-       padding-bottom: 6rem;
+       transition: all 400ms ease;
     }
 
-    .characters__cont{
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        width: 100%;
-        height: 100%;
-    }
+ #personajeDiv{
+    cursor: pointer;
+    gap: 2.6rem;
+    padding: 0px 80px 100px 80px;
+    height: 10%;
+    transition: all 400ms ease;
+    } 
 
     .img{
-        width: 30%;
+        width: 60px;
+        height: 20%;
+
     }
 
     .characters__cont--C1{
-        width: 100%;
-        height: 100%;
+
+        width: 31%;
+        height: 800%; 
        display: flex;
 justify-content: center;
 align-items: center;
@@ -445,45 +447,6 @@ transition: all 400ms ease;
         transform: scale(1.1);  
     }
 
-    .control{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .characters__cont--C2{
-        width: 100%;
-        height: 100%;
-       display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-transition: all 400ms ease;
-text-align: center;
-    }
-
-    .characters__cont--C2:hover{
-        transform: scale(1.1);  
-    }
-    
-    .characters__cont--C3{
-        width: 100%;
-        height: 100%;
-       display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-transition: all 400ms ease;
-text-align: center;
-
-    }
-
-
-    .characters__cont--C3:hover{
-        transform: scale(1.1);  
-    }
-
     .cuadrotxt{
         display: flex;
         justify-content: center;
@@ -491,19 +454,22 @@ text-align: center;
         flex-direction: column;
 background-color: rgb(106, 11, 11);
 width: 60%;
-height: 20%;
 border-radius: 0px 0px 60px 60px;
 box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     }
 
     .cuadrotxt__h2{
-        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
         color: var(--color2text);
     }
 
     .cuadrotxt__p{
+        margin-top: 0.5rem;
+        font-size: 1rem;
         color: var(--color2text);
         font-weight: lighter;
+        padding-bottom: 2rem;
     }
 
     .img{
@@ -536,7 +502,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         z-index: 1;
         position: absolute;
         left: 40%;
-        top: 126%;
+        top: 322%;
         transition: all 400ms ease;
         }
 
@@ -547,7 +513,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     
     .Cont{
         border-top: 10px solid var(--hover3);
-        background-image: url(recursos/majo.png);
+        background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/majo.png?raw=true);
         background-repeat: no-repeat;
         background-size: 1360px 780px;
         height: 100vh;
@@ -557,7 +523,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
 
     .Cont2{
         border-bottom: 10px solid var(--hover3);
-        background-image: url(recursos/Silvi.png);
+        background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Silvi.png?raw=true);
         background-repeat: no-repeat;
         background-size: 1360px 780px;
         height: 100vh;

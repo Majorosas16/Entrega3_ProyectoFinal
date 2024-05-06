@@ -13,7 +13,9 @@
             "alias": "El chico del pan, El panadero, Chico enamorado, Chico amoroso",
             "ocupacion": "Tributo, panadero, pintor, vencedor",
             "estadoCivil": "Casado",
-            "familia": "Katniss Everdeen(Esposa) Sr. Mellark (padre)Sra. Mellark (madre) Hermano mayor Hermano Hija Hijo"
+            "familia": "Katniss Everdeen(Esposa) Sr. Mellark (padre)Sra. Mellark (madre) Hermano mayor Hermano Hija Hijo",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/peeta.jpg?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Mellark.png?raw=true"
         },
         {
             "id": 2,
@@ -28,7 +30,9 @@
             "alias": "Catnip, Chica en llamas, El Sinsajo",
             "ocupacion": "Tributo, vencedora, Cazadora,Rebelde, El Sinsajo",
             "estadoCivil": "Casada",
-            "familia": "Peeta Mellark (esposo) Primrose Everdeen (hermana) Sra. Everdeen (madre) Sr. Everdeen(padre) Willow Mellark (hija) Rye Mellark (hijo)"
+            "familia": "Peeta Mellark (esposo) Primrose Everdeen (hermana) Sra. Everdeen (madre) Sr. Everdeen(padre) Willow Mellark (hija) Rye Mellark (hijo)",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/katniss.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Katniss.png?raw=true"
         },
         {
             "id": 3,
@@ -43,7 +47,9 @@
             "alias": "Presidente Snow",
             "ocupacion":"Presidente de Panem",
             "estadoCivil": "Casado",
-            "familia": "Crassus Snow (padre), Madre (fallecida), Tigris Snow (prima), Esposa desconocida (posiblemente Livia Cardew), Hijo o hija desconocido Nieta"
+            "familia": "Crassus Snow (padre), Madre (fallecida), Tigris Snow (prima), Esposa desconocida (posiblemente Livia Cardew), Hijo o hija desconocido Nieta",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/snow.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Snow.png?raw=true"
         },
 
         {
@@ -59,7 +65,9 @@
             "alias": "Gale",
             "ocupacion": "Cazador, minero, oficial",
             "estadoCivil": "Soltero",
-            "familia": "Hazelle Hawthorne (madre) Rory Hawthorne (hermano)Vick Hawthorne (hermano) Posy Hawthorne (hermana) "
+            "familia": "Hazelle Hawthorne (madre) Rory Hawthorne (hermano)Vick Hawthorne (hermano) Posy Hawthorne (hermana)",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/GaleHawthorne.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Gale.png?raw=true"
         },
         {
             "id": 5,
@@ -74,7 +82,9 @@
             "alias": "Sra. Everdeen",
             "ocupacion": "Sanadora",
             "estadoCivil": "Viuda",
-            "familia": "Sr. Everdeen (esposo) Katniss Everdeen (hija) Primrose Everdeen (hija) Peeta Mellark (yerno) Hija de Katniss y Peeta (nieta)Hijo de Katniss y Peeta (nieto)"
+            "familia": "Sr. Everdeen (esposo) Katniss Everdeen (hija) Primrose Everdeen (hija) Peeta Mellark (yerno) Hija de Katniss y Peeta (nieta)Hijo de Katniss y Peeta (nieto)",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/SraEverdeen.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/SraEverdeen.png?raw=true"
         },
         {
             "id": 6,
@@ -89,7 +99,10 @@
             "alias": "Cinna",
             "ocupacion": "Estilista",
             "estadoCivil": "Se desconoce",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Cinna.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cinna.png?raw=true"
+            
         },
         {
             "id": 7,
@@ -104,7 +117,9 @@
             "alias": "Rue",
             "ocupacion": "Tributo",
             "estadoCivil": "Se desconoce",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Rue.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Rue.png?raw=true"
         },
         {
             "id": 8,
@@ -119,7 +134,9 @@
             "alias": "El monstruoso Chico del Distrito 2 ",
             "ocupacion": "Tributo Profesional",
             "estadoCivil": "Se desconoce",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/CatoHadley.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cato.png?raw=true"
         },
         {
             "id": 9,
@@ -134,7 +151,9 @@
             "alias": "Haymitch",
             "ocupacion": "Mentor, Vencedor y Rebelde ",
             "estadoCivil": "Soltero",
-            "familia": "Madre fallecida Hermano menor fallecido Novia fallecida"
+            "familia": "Madre fallecida Hermano menor fallecido Novia fallecida",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/HaymitchAbernathy.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Haymitch.png?raw=true"
         },
         {
             "id": 10,
@@ -149,7 +168,9 @@
             "alias": "Effie Trinket",
             "ocupacion": "Escolta de los tributos del Distrito 12",
             "estadoCivil": "Se desconoce",
-            "familia": "Desconocido (libro) / Haymitch Abernathy (novio)"
+            "familia": "Desconocido (libro) / Haymitch Abernathy (novio)",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/EffieTrinket.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Effie.png?raw=true"
         },
         {
             "id": 11,
@@ -164,7 +185,9 @@
             "alias": "Prim Patito",
             "ocupacion": "Escolta de los tributos del Distrito 12",
             "estadoCivil": "Se desconoce",
-            "familia": "Katniss Everdeen (hermana)Sra. Everdeen (madre)Sr. Everdeen (padre) Peeta Mellark (cuñado) Sobrino Sobrina Buttercup (mascota) Lady (mascota) "
+            "familia": "Katniss Everdeen (hermana)Sra. Everdeen (madre)Sr. Everdeen (padre) Peeta Mellark (cuñado) Sobrino Sobrina Buttercup (mascota) Lady (mascota)",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/PrimroseEverdeen.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Prim.png?raw=true"
         },
         {
             "id": 12,
@@ -179,7 +202,9 @@
             "alias": "Finnick Odair",
             "ocupacion": "Tributo, Mentor",
             "estadoCivil": "Casado",
-            "familia": "Annie Cresta (esposa) Hijo"
+            "familia": "Annie Cresta (esposa) Hijo",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/FinnickOdair.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Finnick.png?raw=true"
         },
         {
             "id": 13,
@@ -194,7 +219,9 @@
             "alias": "Presidente Coin Coin",
             "ocupacion": "Presidente del Distrito 13 Co-líder de las fuerzas rebeldes Presidente Interina de Panem ",
             "estadoCivil": "Viuda",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/AlmaCoin.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Coin.png?raw=true"
         },
         {
             "id": 14,
@@ -209,7 +236,9 @@
             "alias": "Boggs",
             "ocupacion": "Soldado",
             "estadoCivil": "Se desconoce",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Boggs.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Boggs.png?raw=true"
         },
         {
             "id": 15,
@@ -224,7 +253,9 @@
             "alias": "Annie Cresta",
             "ocupacion": "Tributo, vencedora",
             "estadoCivil": "Viuda",
-            "familia": "Se desconoce"
+            "familia": "Se desconoce",
+            "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/AnnieCresta.png?raw=true",
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Annie.png?raw=true"
         }
     ]
 }

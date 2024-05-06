@@ -17,10 +17,11 @@ export class Personaje {
     ocupacion;
     estadoCivil;
     familia;
+    squareImage;
 
-    #nodoImagen;
+    #nodoCard;
 
-    constructor(id, nombre, distrito, biografia1, biografia2, biografia3, edad, genero, alias, ocupacion, estadoCivil, familia) {
+    constructor(id, nombre, distrito, biografia1, biografia2, biografia3, edad, genero, alias, ocupacion, estadoCivil, familia, squareImage) {
         this.#id = id;
         this.nombre = nombre;
         this.distrito= distrito;
@@ -33,25 +34,31 @@ export class Personaje {
         this.ocupacion=ocupacion;
         this.estadoCivil=estadoCivil;
         this.familia=familia;
+        this.squareImage=squareImage;
 
     }
 
     render() {
         const card = document.createElement("div");
-        card.id = this.id;
+        card.id = this.#id;
+        card.classList.add("characters__cont--C1");
+        this.#nodoCard=card;
 
         const img=document.createElement("img");
-        img.src = "#";
+        img.src = this.squareImage;
         img.alt = this.nombre;
-        this.#nodoImagen= img;
+        img.classList.add("img");
 
         const cuadroTxt=document.createElement("div");
+        cuadroTxt.classList.add("cuadrotxt");
 
         const h2=document.createElement("h2");
         h2.textContent=this.nombre;
+        h2.classList.add("cuadrotxt__h2");
 
         const p=document.createElement("p");
-        p.textContent=this.distrito;
+        p.textContent=`Distrito: ${this.distrito}`;
+        p.classList.add("cuadrotxt__p");
 
         cuadroTxt.appendChild(h2);
         cuadroTxt.appendChild(p);
@@ -63,7 +70,8 @@ export class Personaje {
 
     addEventListeners() {
 
-        this.#nodoImagen.addEventListener("click", () =>{
+        this.#nodoCard.addEventListener("click", () =>{
+            window.location.href = "./Login.html";  
             //aqui el redireccionamiento
         });
     }

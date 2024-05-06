@@ -9,9 +9,10 @@ const renderizarPersonajes = async () =>{
     console.log(data);
 
     const personajeDiv = document.querySelector("#personajeDiv");
+    personajeDiv.classList.add("characters");
 
     for (const perso of data){
-        
+
         const instanciaPersonaje= new Personaje(
             perso.id,
             perso.nombre,
@@ -24,13 +25,14 @@ const renderizarPersonajes = async () =>{
             perso.alias,
             perso.ocupacion,
             perso.estadoCivil,
-            perso.familia
-
+            perso.familia,
+            perso.squareImage,  
         );
 
         const personajeRender = instanciaPersonaje.render();
 
         personajeDiv.appendChild(personajeRender);
+        instanciaPersonaje.addEventListeners();
 
     }
 
