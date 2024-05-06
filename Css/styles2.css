@@ -114,7 +114,7 @@ justify-content: center;
 
 .banner{
 background-color: var(--color1);
-background-image: url(recursos/Fans.png);
+background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Fans.png?raw=true);
 background-repeat: no-repeat, repeat;
 background-size: 1360px 780px;
 width: 100%; /*Que abarque toda la pagina*/
@@ -312,146 +312,148 @@ transition: all 400ms ease;
         background-color: var(--hover);
     }
 
-    /*sect_2*/
+        /*sect_2*/
 
-    .sect_2{
-        height: cal(100vh);
-        position: relative;
-        
-    }
+        .sect_2{
+            height: cal(100vh);
+            position: relative;
+            
+        }
+    
+        .Personajes{
+            background: linear-gradient(0deg, rgba(155,17,17,1) 0%, rgba(92,1,1,1) 100%);
+            width: 100%;
+            height: 22vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            border-radius: 0px 0px 100px 100px;
+            /* border-radius: 0px 0px 300px 300px; */  
+        }
+    
+        .Personajes__contenedor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+        .Personajes__contenedor--H2{
+            color: var(--color2text);
+            font-size: 2rem;
+            font-weight: lighter;
+            margin-bottom: 2rem;
+        }
 
-    .Personajes{
-        background: linear-gradient(0deg, rgba(155,17,17,1) 0%, rgba(92,1,1,1) 100%);
-        width: 100%;
-        height: 30vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        z-index: 1;
-        border-radius: 0px 0px 100px 100px;
-        /* border-radius: 0px 0px 300px 300px; */  
-    }
+         /* parte 2 */
 
-    .Personajes__contenedor{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+         .sagaPeliculas{
+            background: rgb(114, 12, 12);
+            width: 100%;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+        .ele{
+            margin-top: 13rem;
+            display: flex;
+            justify-content: center;
+            height: 120%;
+            width: 100%;
+            align-items: center;
+        }
+    
+        .ele__img{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 22%;
+            height: 50%;
+    
+        }
+    
+        .sagaPeliculas__ele--img2{
+    
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 22%;
+            height: 50%;
+        }
+    
+    
+        .ima{
+            padding: 2rem;
+            width: 100%;
+            height: 40%;
+            opacity: 0.2;
+        }
+    
+        .saga{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            flex-direction: column;
+        }
+    
+        .saga__h2{
+            color: var(--color2text);
+            font-size: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .saga__lineaSaga{
+            margin-top: 5%;
+            height: 5px;
+            width: 40%;
+            background-color: var(--hover);
+            transition: all 400ms ease;
+        }
+    
+        .saga__lineaSaga:hover{
+            height: 5px;
+            width: 70%;
+            background-color: var(--hover);
+        }
 
-    .Personajes__contenedor--H2{
-        color: var(--color2text);
-        font-size: 2rem;
-        font-weight: lighter;
-        margin-bottom: 2rem;
-    }
+     /* parte 3 */
 
-        /* parte 2 */
-
-    .sagaPeliculas{
+     .characters{
         background: rgb(114, 12, 12);
         width: 100%;
-        height: 50vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .ele{
-        margin-top: 13rem;
-        display: flex;
-        justify-content: center;
-        height: 120%;
-        width: 100%;
-        align-items: center;
-    }
-
-    .ele__img{
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        width: 22%;
-        height: 62%;
-
-    }
-
-    .sagaPeliculas__ele--img2{
-
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        width: 22%;
-        height: 62%;
-    }
-
-
-    .ima{
-        padding: 2rem;
-        width: 100%;
-        height: 40%;
-        opacity: 0.2;
-    }
-
-    .saga{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 30%;
-        flex-direction: column;
-    }
-
-    .saga__h2{
-        color: var(--color2text);
-        font-size: 2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .saga__lineaSaga{
-        margin-top: 5%;
-        height: 5px;
-        width: 40%;
-        background-color: var(--hover);
-        transition: all 400ms ease;
-    }
-
-    .saga__lineaSaga:hover{
-        height: 5px;
-        width: 70%;
-        background-color: var(--hover);
-    }
-
-    /* parte 3 */
-
-    .characters{
-        background: rgb(114, 12, 12);
-        width: 100%;
-        height: 80vh;
+        flex-wrap: wrap; 
         display: flex;
         justify-content: center;
         align-items: start;
-       padding-bottom: 6rem;
+       transition: all 400ms ease;
     }
 
-    .characters__cont{
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-        width: 100%;
-        height: 100%;
-    }
+ #personajeDiv{
+    cursor: pointer;
+    gap: 2.6rem;
+    padding: 0px 80px 100px 80px;
+    height: 10%;
+    transition: all 400ms ease;
+    } 
 
     .img{
-        width: 30%;
+        width: 60px;
+        height: 20%;
+
     }
 
     .characters__cont--C1{
-        width: 100%;
-        height: 100%;
+
+        width: 31%;
+        height: 800%; 
        display: flex;
 justify-content: center;
 align-items: center;
@@ -463,45 +465,6 @@ transition: all 400ms ease;
         transform: scale(1.1);  
     }
 
-    .control{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .characters__cont--C2{
-        width: 100%;
-        height: 100%;
-       display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-transition: all 400ms ease;
-text-align: center;
-    }
-
-    .characters__cont--C2:hover{
-        transform: scale(1.1);  
-    }
-    
-    .characters__cont--C3{
-        width: 100%;
-        height: 100%;
-       display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-transition: all 400ms ease;
-text-align: center;
-
-    }
-
-
-    .characters__cont--C3:hover{
-        transform: scale(1.1);  
-    }
-
     .cuadrotxt{
         display: flex;
         justify-content: center;
@@ -509,26 +472,28 @@ text-align: center;
         flex-direction: column;
 background-color: rgb(106, 11, 11);
 width: 60%;
-height: 20%;
 border-radius: 0px 0px 60px 60px;
 box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     }
 
     .cuadrotxt__h2{
-        font-size: 1.5rem;
+        margin-top: 1rem;
+        font-size: 1.2rem;
         color: var(--color2text);
     }
 
     .cuadrotxt__p{
+        margin-top: 0.5rem;
+        font-size: 1rem;
         color: var(--color2text);
         font-weight: lighter;
+        padding-bottom: 2rem;
     }
 
     .img{
         width: 60%;
         transition: all 400ms ease;
     }
-
         /*sect_3*/
 
         .sect_3{
@@ -539,7 +504,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         }
         .btnEquipo{
             position: absolute;
-            width: 15%;
+            width: 20%;
             display: flex;
             justify-content: center;
             align-content: center;
@@ -553,8 +518,8 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         border-radius: 50px;
         z-index: 1;
         position: absolute;
-        left: 42%;
-        top: 243%;
+        left: 40%;
+        top: 315%;
         transition: all 400ms ease;
         }
 
@@ -565,7 +530,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     
     .Cont{
         border-top: 10px solid var(--hover3);
-        background-image: url(recursos/majo.png);
+        background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/majo.png?raw=true);
         background-repeat: no-repeat;
         background-size: 1360px 780px;
         height: 100vh;
@@ -575,7 +540,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
 
     .Cont2{
         border-bottom: 10px solid var(--hover3);
-        background-image: url(recursos/Silvi.png);
+        background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Silvi.png?raw=true);
         background-repeat: no-repeat;
         background-size: 1360px 780px;
         height: 100vh;
