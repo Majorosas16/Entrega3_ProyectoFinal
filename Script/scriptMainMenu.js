@@ -1,12 +1,8 @@
-function toggleRemember() {
-    var checkbox = document.getElementById("remember-me-checkbox");
-}
+import {cargaInformacion , Personaje} from "./utilsMainMenu.js"
 
-import { cargaInformacion, Personaje } from "./utils.js";
-const renderizarPersonajes = async () =>{
+const renderizarPersonaje = async () =>{
 
     const data = await cargaInformacion();
-    console.log(data);
 
     const personajeDiv = document.querySelector("#personajeDiv");
     personajeDiv.classList.add("characters");
@@ -35,11 +31,11 @@ const renderizarPersonajes = async () =>{
         instanciaPersonaje.addEventListeners();
 
     }
-
 }
 
-const render = async () => {
-    await renderizarPersonajes();
-};
+const render =async () => {
 
+    await renderizarPersonaje();
+
+}
 document.addEventListener("DOMContentLoaded", render);

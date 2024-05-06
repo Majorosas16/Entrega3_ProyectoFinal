@@ -4,8 +4,21 @@ export const cargaInformacion = async () => {
     return data.HunterGamesCharacters;
 }
 
+export const personajePorId = async (id) => {
+    const personaje = await cargaInformacion();
+  
+    for (const item of personaje){
+      if(item.idCha === id) {
+        return item;
+      }
+    }
+  
+    throw new Error ("Personaje no encontrado");
+}
+
 export class Personaje {
     #id;
+    #idCha;
     nombre;
     distrito;
     biografia1;
@@ -71,7 +84,7 @@ export class Personaje {
     addEventListeners() {
 
         this.#nodoCard.addEventListener("click", () =>{
-            window.location.href = "./Login.html";  
+            window.location.href = `./Login.html`;  
             //aqui el redireccionamiento
         });
     }
