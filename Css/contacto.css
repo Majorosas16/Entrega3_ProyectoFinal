@@ -65,13 +65,26 @@ body {
     width: 390px;
     height: 400px;
     margin-top: 2rem;
-    transform: translate(-50%);
+    text-decoration: none;}
+
+.contenedor__cajita img {
+    width: 270px;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 4rem;
+}
+
+.contenedor__cajita p {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    margin-top: 1rem;
 }
 
 .contenedor__cajita--registro {
-    position: absolute;
-    top: 50%; 
-    left: 50%;
+    position: relative;
+    top: 50%;
+    left: 59%;
     transform: translate(-48.5%, -55%);
 }
 
@@ -110,68 +123,13 @@ body {
     font-weight: 700;
     text-decoration: none;
 }
-
-.contenedor__cajita--input {
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    margin-top: 0.35rem;
-    margin-right: 1rem;
-}
-
-.contenedor__cajita--input i {
-    margin-right: 0.5rem; 
-    color: #000000; 
-}
-
-.lineInput {
-    flex: 1;
-    border: 1px solid rgb(255, 255, 255); 
-    border-radius: 0.5rem;
-    background-color: white;
-    padding: 0.5rem;
-    width: 16rem;
-    height: 40px;
-    outline: none;
-    font-size: 0.75rem;
-}
-
-.lineInput::placeholder {
-    transform: translateY(-20%);
-}
-
-.lineInput:focus {
-    border-color: #B00000;
-}
-
-.contenedor__cajita--ingresar {
-    padding: 0.3rem 2rem;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    border: none;
-    border-radius: 1.6rem;
-    background: linear-gradient(45deg, #B75601, #D8B504); 
-    color: #FFFFFF; 
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    outline: none;
-    transition: background 0.3s ease; 
-    transform: scale(1.3);
-}
-
-.contenedor__cajita--ingresar:hover {
-    background: linear-gradient(45deg, #FFD700, #FFA500);
-}
-
 .contenedor__cajita2 {
     position: relative;
     background: linear-gradient(to bottom,  rgba(92,1,1,1), rgba(155,17,17,1)); 
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
     width: 390px;
     height: 400px;
-    margin-top: 2rem;
-    transform: translate(105%);
+    margin-top: -10rem;
     text-decoration: none;
 }
 
