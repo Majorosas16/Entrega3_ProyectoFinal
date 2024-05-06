@@ -15,7 +15,10 @@
             "estadoCivil": "Casado",
             "familia": "Katniss Everdeen(Esposa) Sr. Mellark (padre)Sra. Mellark (madre) Hermano mayor Hermano Hija Hijo",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/peeta.jpg?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Mellark.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Mellark.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Peeta1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Peeta2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Peeta3.png?raw=true"
         },
         {
             "id": 2,
@@ -32,7 +35,10 @@
             "estadoCivil": "Casada",
             "familia": "Peeta Mellark (esposo) Primrose Everdeen (hermana) Sra. Everdeen (madre) Sr. Everdeen(padre) Willow Mellark (hija) Rye Mellark (hijo)",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/katniss.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Katniss.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Katniss.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Katniss1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Katniss2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Katniss3.png?raw=true"
         },
         {
             "id": 3,
@@ -49,7 +55,10 @@
             "estadoCivil": "Casado",
             "familia": "Crassus Snow (padre), Madre (fallecida), Tigris Snow (prima), Esposa desconocida (posiblemente Livia Cardew), Hijo o hija desconocido Nieta",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/snow.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Snow.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Snow.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Snow1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Snow2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Snow3.png?raw=true"
         },
 
         {
@@ -67,7 +76,10 @@
             "estadoCivil": "Soltero",
             "familia": "Hazelle Hawthorne (madre) Rory Hawthorne (hermano)Vick Hawthorne (hermano) Posy Hawthorne (hermana)",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/GaleHawthorne.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Gale.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Gale.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Gale1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Gale2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Gale3.png?raw=true"
         },
         {
             "id": 5,
@@ -84,7 +96,10 @@
             "estadoCivil": "Viuda",
             "familia": "Sr. Everdeen (esposo) Katniss Everdeen (hija) Primrose Everdeen (hija) Peeta Mellark (yerno) Hija de Katniss y Peeta (nieta)Hijo de Katniss y Peeta (nieto)",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/SraEverdeen.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/SraEverdeen.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/SraEverdeen.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/SraEverndeen1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/SraEverndeen2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/SraEverndeen3.png?raw=true"
         },
         {
             "id": 6,
@@ -101,7 +116,10 @@
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Cinna.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cinna.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cinna.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cinna1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cinna2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cinna3.png?raw=true"
             
         },
         {
@@ -119,7 +137,10 @@
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Rue.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Rue.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Rue.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Rue1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Rue2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Rue3.png?raw=true"
         },
         {
             "id": 8,
@@ -136,7 +157,11 @@
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/CatoHadley.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cato.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Cato.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cato1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cato2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Cato3.png?raw=true"
+            
         },
         {
             "id": 9,
@@ -153,7 +178,10 @@
             "estadoCivil": "Soltero",
             "familia": "Madre fallecida Hermano menor fallecido Novia fallecida",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/HaymitchAbernathy.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Haymitch.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Haymitch.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Heimich1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Heimich2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Heimich3.png?raw=true"
         },
         {
             "id": 10,
@@ -170,7 +198,10 @@
             "estadoCivil": "Se desconoce",
             "familia": "Desconocido (libro) / Haymitch Abernathy (novio)",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/EffieTrinket.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Effie.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Effie.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Effie1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Effie2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Effie3.png?raw=true"
         },
         {
             "id": 11,
@@ -187,7 +218,10 @@
             "estadoCivil": "Se desconoce",
             "familia": "Katniss Everdeen (hermana)Sra. Everdeen (madre)Sr. Everdeen (padre) Peeta Mellark (cuñado) Sobrino Sobrina Buttercup (mascota) Lady (mascota)",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/PrimroseEverdeen.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Prim.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Prim.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Prim1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Prim2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Prim3.png?raw=true"
         },
         {
             "id": 12,
@@ -204,7 +238,10 @@
             "estadoCivil": "Casado",
             "familia": "Annie Cresta (esposa) Hijo",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/FinnickOdair.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Finnick.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Finnick.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Finnick1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Finnick2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Finnick3.png?raw=true"
         },
         {
             "id": 13,
@@ -221,7 +258,10 @@
             "estadoCivil": "Viuda",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/AlmaCoin.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Coin.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Coin.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Coin1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Coin2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Coin3.png?raw=true"
         },
         {
             "id": 14,
@@ -238,7 +278,10 @@
             "estadoCivil": "Se desconoce",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/Boggs.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Boggs.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Boggs.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Boggs1.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Boggs2.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Boggs3.png?raw=true"
         },
         {
             "id": 15,
@@ -255,7 +298,10 @@
             "estadoCivil": "Viuda",
             "familia": "Se desconoce",
             "squareImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/PersonajesdelaMain/AnnieCresta.png?raw=true",
-            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Annie.png?raw=true"
+            "bodyImage": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/EachPersonaje/Annie.png?raw=true",
+            "square1": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Annie2.png?raw=true",
+            "square2": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Annie1.png?raw=true",
+            "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Annie3.png?raw=true"
         }
     ]
 }
