@@ -717,6 +717,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     .txtH2{
         color: var(--color2text);
         font-weight: normal;
+        font-size: 1.1rem;
     }
 
     .stars{
@@ -746,7 +747,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 1rem;
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -768,7 +769,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 1rem;
-    width: 60%;
+    width: 68%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -790,7 +791,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 1rem;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-content: center;
