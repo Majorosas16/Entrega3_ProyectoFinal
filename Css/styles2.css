@@ -251,7 +251,7 @@ transition: all 400ms ease;
 
      .banner__btn{
         margin-top: 4rem;
-        width: 25%;
+        width: 20%;
         display: flex;
         justify-content: center;
         align-content: center;
@@ -284,7 +284,6 @@ transition: all 400ms ease;
         left: 10%;
         top: 30%;
         margin-top: 10rem;
-        transform: scale(1);
     }
 
     .check{
@@ -324,7 +323,7 @@ transition: all 400ms ease;
         .Personajes{
             background: linear-gradient(0deg, rgba(155,17,17,1) 0%, rgba(92,1,1,1) 100%);
             width: 100%;
-            height: 22vh;
+            height: 30vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -343,7 +342,7 @@ transition: all 400ms ease;
     
         .Personajes__contenedor--H2{
             color: var(--color2text);
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: lighter;
             margin-bottom: 2rem;
         }
@@ -353,7 +352,7 @@ transition: all 400ms ease;
          .sagaPeliculas{
             background: rgb(114, 12, 12);
             width: 100%;
-            height: 45vh;
+            height: 60vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -391,7 +390,7 @@ transition: all 400ms ease;
         .ima{
             padding: 2rem;
             width: 100%;
-            height: 40%;
+            height: 50%;
             opacity: 0.2;
         }
     
@@ -520,7 +519,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         z-index: 1;
         position: absolute;
         left: 40%;
-        bottom: -389%;
+        top: 315%;
         transition: all 400ms ease;
         }
 
@@ -735,7 +734,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     .txtH2{
         color: var(--color2text);
         font-weight: normal;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
     }
 
     .stars{
@@ -765,7 +764,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 1rem;
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -787,7 +786,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
     font-weight: normal;
     font-size: 1.2rem;
     margin-top: 1rem;
-    width: 76%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-content: center;
