@@ -148,6 +148,7 @@ nav {
 .imgUno {
     width: 25px;
     margin-right: 1rem; 
+    cursor: pointer;
 }
 
 .imgUno:hover {
@@ -162,6 +163,7 @@ nav {
     margin-top: 0.5rem;
     margin-right: 1rem;
     transform: scale(0.6);
+    cursor: pointer;
 }
 
 .imgDos:hover {
