@@ -101,44 +101,46 @@ const renderizarPersonaje = async () =>{
     divContInfoTxt.classList.add("contenedor__cajita--texto");
 
     const pTitleEdad= document.createElement("p");
-    pTitleEdad.textContent="Edad";
+    pTitleEdad.textContent="Edad:";
     //crea una clase en css para qie este texto enste en bold
 
     const pEdad= document.createElement("p");
     pEdad.textContent= personaje.edad;
 
     const divLinea = document.createElement("div");
+    divLinea.classList.add("contenedor__linea");
     const lineaH1= document.createElement("hr");
     lineaH1.classList.add("linea-horizontal");
 
     divLinea.appendChild(lineaH1);
 
+    const pTitleAlias= document.createElement("p");
+    pTitleAlias.textContent="Alias:";
+    //crea una clase en css para qie este texto enste en bold
+
+    const pAlias= document.createElement("p");
+    pAlias.textContent= personaje.alias;
+
+    const divLinea2 = document.createElement("div");
+    divLinea2.classList.add("contenedor__linea");
+    const lineaH2= document.createElement("hr");
+    lineaH2.classList.add("linea-horizontal");
+
+    divLinea2.appendChild(lineaH2);
 
     const pTitleOcupacion= document.createElement("p");
-    pTitleAlias.textContent="Alias";
+    pTitleOcupacion.textContent="Ocupación:";
     //crea una clase en css para qie este texto enste en bold
 
-    const pAlias= document.createElement("p");
-    pAlias.textContent= personaje.alias;
+    const pOcupacion= document.createElement("p");
+    pOcupacion.textContent= personaje.ocupacion;
 
-    const divLinea2 = document.createElement("div");
-    const lineaH2= document.createElement("hr");
-    lineaH2.classList.add("linea-horizontal");
+    const divLinea3 = document.createElement("div");
+    divLinea3.classList.add("contenedor__linea");
+    const lineaH3= document.createElement("hr");
+    lineaH3.classList.add("linea-horizontal");
 
-    divLinea2.appendChild(lineaH2);
-
-    const pTitleAlias= document.createElement("p");
-    pTitleAlias.textContent="Alias";
-    //crea una clase en css para qie este texto enste en bold
-
-    const pAlias= document.createElement("p");
-    pAlias.textContent= personaje.alias;
-
-    const divLinea2 = document.createElement("div");
-    const lineaH2= document.createElement("hr");
-    lineaH2.classList.add("linea-horizontal");
-
-    divLinea2.appendChild(lineaH2);
+    divLinea3.appendChild(lineaH3);
 
 
     divContInfoTxt.appendChild(pTitleEdad);
@@ -147,6 +149,9 @@ const renderizarPersonaje = async () =>{
     divContInfoTxt.appendChild(pTitleAlias);
     divContInfoTxt.appendChild(pAlias);
     divContInfoTxt.appendChild(divLinea2);
+    divContInfoTxt.appendChild(pTitleOcupacion);
+    divContInfoTxt.appendChild(pOcupacion);
+    divContInfoTxt.appendChild(divLinea3);
     divContInfo.appendChild(divContInfoTxt);
 
     section.appendChild(divContInfo);
