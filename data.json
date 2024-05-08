@@ -1,8 +1,7 @@
 {
     "HunterGamesCharacters": [
         {
-            "id": 1,
-            "idCha": "PeetaMelarkHunterGamesMovies",
+            "id": "01PeetaMelarkHunterGamesMovies",
             "nombre": "Peeta Melark",
             "distrito": "12",
             "biografia1": "Peeta Mellark es uno de los personajes principales de la saga de los Juegos del hambre, escrita por Suzanne Collins.",
@@ -21,8 +20,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Peeta3.png?raw=true"
         },
         {
-            "id": 2,
-            "idCha": "KatnissEverdeenHunterGamesMovies",
+            "id": "02KatnissEverdeenHunterGamesMovies",
             "nombre": "Katniss Everdeen",
             "distrito": "12",
             "biografia1": "Katniss Everdeen es el personaje principal y narradora de la trilogía de Los Juegos del Hambre.",
@@ -41,8 +39,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Katniss3.png?raw=true"
         },
         {
-            "id": 3,
-            "idCha": "CoriolanusSnowHunterGamesMovies",
+            "id": "03CoriolanusSnowHunterGamesMovies",
             "nombre": "Coriolanus Snow",
             "distrito": "Capitolio",
             "biografia1": "Coriolanus Snow, también conocido como Coryo en su juventud, fue un presidente tiránico de Panem.",
@@ -62,8 +59,7 @@
         },
 
         {
-            "id": 4,
-            "idCha": "GaleHawthorneHunterGamesMovies",
+            "id": "04GaleHawthorneHunterGamesMovies",
             "nombre": "Gale Hawthorne",
             "distrito": "12",
             "biografia1": "Gale Hawthorne es el mejor amigo y compañero de caza de Katniss Everdeen.",
@@ -82,8 +78,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Gale3.png?raw=true"
         },
         {
-            "id": 5,
-            "idCha": "Sra.EverdeenHunterGamesMovies",
+            "id": "05Sra.EverdeenHunterGamesMovies",
             "nombre": "Sra. Everdeen",
             "distrito": "12",
             "biografia1": "La señora Everdeen es la madre de Katniss y Primrose Everdeen, así como también la esposa del fallecido Sr. Everdeen.",
@@ -102,8 +97,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/SraEverndeen3.png?raw=true"
         },
         {
-            "id": 6,
-            "idCha": "CinnaHunterGamesMovies",
+            "id": "06CinnaHunterGamesMovies",
             "nombre": "Cinna",
             "distrito": "Capitolio",
             "biografia1": "Cinna fue el estilista de Katniss Everdeen durante los 74º y 75º Juegos del Hambre. También apoyaba la rebelión contra el Capitolio. Era del Capitolio y fue uno de los personajes principales en los libros.",
@@ -123,8 +117,7 @@
             
         },
         {
-            "id": 7,
-            "idCha": "RueHunterGamesMovies",
+            "id": "07RueHunterGamesMovies",
             "nombre": "Rue",
             "distrito": "11",
             "biografia1": "Rue era la más pequeña y joven tributo, del Distrito 11, quien fue seleccionada para participar en los 74º Juegos del Hambre. Se describe por ser menuda y fácilmente subestimada por otros competidores.",
@@ -143,8 +136,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Rue3.png?raw=true"
         },
         {
-            "id": 8,
-            "idCha": "CatoHadleyHunterGamesMovies",
+            "id": "08CatoHadleyHunterGamesMovies",
             "nombre": "Cato Hadley",
             "distrito": "2",
             "biografia1": "Cato Hadley fue el tributo masculino del Distrito 2 en los 74.os Juegos del Hambre y uno de los principalen antagonistas de Los Juegos del Hambre, debido a que era parte de los Tributos Profesionales.",
@@ -164,8 +156,7 @@
             
         },
         {
-            "id": 9,
-            "idCha": "HaymitchAbernathyHunterGamesMovies",
+            "id": "09HaymitchAbernathyHunterGamesMovies",
             "nombre": "Haymitch Abernathy",
             "distrito": "12",
             "biografia1": "Haymitch Abernathy es el mentor de Katniss Everdeen y Peeta Mellark en los 74.os Juegos del Hambre y los 75.os Juegos del Hambre (Tercer Vasallaje de los Veinticinco) y además fue el vencedor del Segundo Vasallaje de los Veinticinco.",
@@ -184,8 +175,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Heimich3.png?raw=true"
         },
         {
-            "id": 10,
-            "idCha": "EffieTrinketHunterGamesMovies",
+            "id": "10EffieTrinketHunterGamesMovies",
             "nombre": "Effie Trinket",
             "distrito": "Capitolio",
             "biografia1": "Effie Trinket es la escolta de los tributos del Distrito 12, incluyendo a Katniss Everdeen y Peeta Mellark.",
@@ -204,8 +194,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Effie3.png?raw=true"
         },
         {
-            "id": 11,
-            "idCha": "PrimroseEverdeenHunterGamesMovies",
+            "id": "11PrimroseEverdeenHunterGamesMovies",
             "nombre": "Primrose Everdeen",
             "distrito": "12 y 13",
             "biografia1": "Primrose 'Prim' Everdeen era la hermana pequeña de Katniss Everdeen. En muchos sentidos, Prim era diferente a Katniss tanto en la apariencia como en el carácter; tenía el pelo rubio como su madre así como también su talento para curar. Poseía dos mascotas: un gato llamado Buttercup y una cabra llamada Lady.",
@@ -224,8 +213,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Prim3.png?raw=true"
         },
         {
-            "id": 12,
-            "idCha": "FinnickOdairHunterGamesMovies",
+            "id": "12FinnickOdairHunterGamesMovies",
             "nombre": "Finnick Odair",
             "distrito": "4",
             "biografia1": "Finnick Odair fue un vencedor del Distrito 4. Finnick ganó los 65.os Juegos del Hambre y sobrevivió los 75.os Juegos del Hambre, que eran una edición especial por corresponder al Vasallaje de los Veinticinco, celebrado cada 25 años.",
@@ -244,8 +232,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Finnick3.png?raw=true"
         },
         {
-            "id": 13,
-            "idCha": "AlmaCoinHunterGamesMovies",
+            "id": "13AlmaCoinHunterGamesMovies",
             "nombre": "Alma Coin",
             "distrito": "13",
             "biografia1": "Alma Coin fue la presidente del Distrito 13 y líder de la rebelión en contra del Capitolio por la gente de los distritos de Panem. Ella se introduce en Sinsajo, cuando Katniss se encuentra con ella en el Distrito 13.",
@@ -264,8 +251,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Coin3.png?raw=true"
         },
         {
-            "id": 14,
-            "idCha": "BoggsHunterGamesMovies",
+            "id": "14BoggsHunterGamesMovies",
             "nombre": "Boggs",
             "distrito": "13",
             "biografia1": "Boggs fue conocido como la mano derecha de la presidenta Coin hasta que Katniss se ofrece a asumir el papel del Sinsajo. Luego se convierte en su trabajo mantenerla con vida.",
@@ -284,8 +270,7 @@
             "square3": "https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/OtrasImagenes/Boggs3.png?raw=true"
         },
         {
-            "id": 15,
-            "idCha": "AnnieCrestaGamesMovies",
+            "id": "15AnnieCrestaGamesMovies",
             "nombre": "Annie Cresta",
             "distrito": "4",
             "biografia1": "Annie Cresta fue el tributo femenino del Distrito 4 en los 70º Juegos del Hambre y vencedora de los mismos, aunque en el proceso quedó traumatizada por la decapitación de su compañero de distrito.",

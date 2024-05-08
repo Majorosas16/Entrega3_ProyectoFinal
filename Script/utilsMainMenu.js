@@ -9,7 +9,7 @@ export const personajePorId = async (id) => {
     const personaje = await cargaInformacion();
   
     for (const item of personaje){
-      if(item.idCha === id) {
+      if(item.id === id) {
         return item;
       }
     }
@@ -21,7 +21,6 @@ export const personajePorId = async (id) => {
 
 export class Personaje {
     #id;
-    #idCha;
     nombre;
     distrito;
     biografia1;
@@ -89,9 +88,7 @@ export class Personaje {
     addEventListeners() {
 
         this.#nodoCard.addEventListener("click", () =>{
-            const perso = cargaInformacion();
-            
-                window.location.href = `./Card.html?id=${perso.idCha}`;  
+                window.location.href = `./Card.html?id=${this.#id}`;  
                  //aqui el redireccionamiento
 
 

@@ -12,41 +12,150 @@ const renderizarPersonaje = async () =>{
     headTitle.textContent=personaje.nombre;
 
     const section = document.querySelector(".contenedor");
+    section.classList.add("contenedor");
 
-    const contenido= document.createElement("div");
+    const divGrande=document.createElement("div")
+    divGrande.classList.add("contenedor__contenido");
 
     const imgFlecha = document.createElement("img");
     imgFlecha.src="Imagenes1/flecha.png";
     imgFlecha.alt="Flecha";
+    imgFlecha.classList.add("imgUno");
+        //agregarle un add venet listener a imgFlecha
 
     const p = document.createElement("p");
     p.textContent=personaje.nombre;
+    p.classList.add("tituloUno");
 
-    contenido.appendChild(imgFlecha);
-    contenido.appendChild(p);
-    section.appendChild(contenido);
+    const fav = document.createElement("img");
+    fav.src="Imagenes2/Favo.png";
+    fav.alt="Favoritos";
+    fav.classList.add("imgDos");
+    //agregarle un add venet listener al fav
 
-    const imgFav = document.createElement("img");
-    imgFav.src="Imagenes2/Recurso 26 1.png";
-    imgFav.alt="Favorito";
+    divGrande.appendChild(imgFlecha);
+    divGrande.appendChild(p);
+    divGrande.appendChild(fav);
+    section.appendChild(divGrande);
 
-    const fotosDiv = document.createElement("div");
+    const fotosCont = document.createElement("div");
+    fotosCont.classList.add("contenedor__fotos");
 
     const img1 = document.createElement("img");
-    imgFav.src="#";
-    imgFav.alt="img1";
+    img1.src=personaje.square1;
+    img1.alt="img1";
 
     const img2 = document.createElement("img");
-    imgFav.src="#";
-    imgFav.alt="img2";
+    img2.src=personaje.square2;
+    img2.alt="a";
 
     const img3 = document.createElement("img");
-    imgFav.src="#";
-    imgFav.alt="img3";
+    img3.src=personaje.square3;
+    img3.alt="img3";
 
-    //aqui los AP
+    fotosCont.appendChild(img1);
+    fotosCont.appendChild(img2);
+    fotosCont.appendChild(img3);
+    section.appendChild(fotosCont);
 
-    const bioDiv = document.createElement("div")
+    const divBio = document.createElement("div");
+    divBio.classList.add("contenedor__Biografia");
+
+    const divBioText = document.createElement("div");
+    divBioText.classList.add("contenedor__Biografia-texto");
+
+    const pTxt1 = document.createElement("p");
+    pTxt1.textContent=personaje.biografia1;
+    pTxt1.classList.add("contenedor__Biografia-texto1");
+
+    const pTxt2 = document.createElement("p");
+    pTxt2.textContent=personaje.biografia2;
+    pTxt2.classList.add("contenedor__Biografia-texto2");
+
+    const pTxt3 = document.createElement("p");
+    pTxt3.textContent=personaje.biografia3;
+    pTxt3.classList.add("contenedor__Biografia-texto3");
+
+    divBioText.appendChild(pTxt1);
+    divBioText.appendChild(pTxt2);
+    divBioText.appendChild(pTxt3);
+    divBio.appendChild(divBioText);
+    section.appendChild(divBio);
+
+    const divBioImg = document.createElement("div");
+    divBioImg.classList.add("contenedor__Biografia-imagen");
+
+    const imgBio= document.createElement("img");
+    imgBio.src=personaje.bodyImage;
+    imgBio.alt="imgBio";
+
+    divBioImg.appendChild(imgBio);
+    section.appendChild(divBioImg);
+
+    //Bio
+
+    const divContInfo = document.createElement("div");
+    divContInfo.classList.add("contenedor__cajita");
+
+    const divContInfoTxt = document.createElement("div");
+    divContInfoTxt.classList.add("contenedor__cajita--texto");
+
+    const pTitleEdad= document.createElement("p");
+    pTitleEdad.textContent="Edad";
+    //crea una clase en css para qie este texto enste en bold
+
+    const pEdad= document.createElement("p");
+    pEdad.textContent= personaje.edad;
+
+    const divLinea = document.createElement("div");
+    const lineaH1= document.createElement("hr");
+    lineaH1.classList.add("linea-horizontal");
+
+    divLinea.appendChild(lineaH1);
+
+
+    const pTitleOcupacion= document.createElement("p");
+    pTitleAlias.textContent="Alias";
+    //crea una clase en css para qie este texto enste en bold
+
+    const pAlias= document.createElement("p");
+    pAlias.textContent= personaje.alias;
+
+    const divLinea2 = document.createElement("div");
+    const lineaH2= document.createElement("hr");
+    lineaH2.classList.add("linea-horizontal");
+
+    divLinea2.appendChild(lineaH2);
+
+    const pTitleAlias= document.createElement("p");
+    pTitleAlias.textContent="Alias";
+    //crea una clase en css para qie este texto enste en bold
+
+    const pAlias= document.createElement("p");
+    pAlias.textContent= personaje.alias;
+
+    const divLinea2 = document.createElement("div");
+    const lineaH2= document.createElement("hr");
+    lineaH2.classList.add("linea-horizontal");
+
+    divLinea2.appendChild(lineaH2);
+
+
+    divContInfoTxt.appendChild(pTitleEdad);
+    divContInfoTxt.appendChild(pEdad);
+    divContInfoTxt.appendChild(divLinea);
+    divContInfoTxt.appendChild(pTitleAlias);
+    divContInfoTxt.appendChild(pAlias);
+    divContInfoTxt.appendChild(divLinea2);
+    divContInfo.appendChild(divContInfoTxt);
+
+    section.appendChild(divContInfo);
+
+
+
+
+
+
 }
 
 const render =async () => {
