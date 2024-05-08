@@ -21,7 +21,11 @@ const renderizarPersonaje = async () =>{
     imgFlecha.src="Imagenes1/flecha.png";
     imgFlecha.alt="Flecha";
     imgFlecha.classList.add("imgUno");
-        //agregarle un add venet listener a imgFlecha
+
+        imgFlecha.addEventListener("click", () =>{
+             window.location.href = `./MainMenu.html`;  
+ 
+        });
 
     const p = document.createElement("p");
     p.textContent=personaje.nombre;
@@ -31,7 +35,11 @@ const renderizarPersonaje = async () =>{
     fav.src="Imagenes2/Favo.png";
     fav.alt="Favoritos";
     fav.classList.add("imgDos");
-    //agregarle un add venet listener al fav
+
+    fav.addEventListener("click", () =>{
+        window.location.href = `./Favoritos.html`;  
+
+});
 
     divGrande.appendChild(imgFlecha);
     divGrande.appendChild(p);
@@ -121,7 +129,6 @@ const renderizarPersonaje = async () =>{
     const pTitleAlias= document.createElement("p");
     pTitleAlias.textContent="Alias:";
     pTitleAlias.classList.add("bolder");
-
 
     const pAlias= document.createElement("p");
     pAlias.textContent= personaje.alias;
