@@ -62,7 +62,6 @@ const renderizarPersonaje = async () =>{
     section.appendChild(div);
 
 
-
     const divBio = document.createElement("div");
     divBio.classList.add("contenedor__Biografia");
 
@@ -107,7 +106,7 @@ const renderizarPersonaje = async () =>{
 
     const pTitleEdad= document.createElement("p");
     pTitleEdad.textContent="Edad:";
-    //crea una clase en css para qie este texto enste en bold
+    pTitleEdad.classList.add("bolder");
 
     const pEdad= document.createElement("p");
     pEdad.textContent= personaje.edad;
@@ -121,7 +120,8 @@ const renderizarPersonaje = async () =>{
 
     const pTitleAlias= document.createElement("p");
     pTitleAlias.textContent="Alias:";
-    //crea una clase en css para qie este texto enste en bold
+    pTitleAlias.classList.add("bolder");
+
 
     const pAlias= document.createElement("p");
     pAlias.textContent= personaje.alias;
@@ -135,7 +135,7 @@ const renderizarPersonaje = async () =>{
 
     const pTitleOcupacion= document.createElement("p");
     pTitleOcupacion.textContent="Ocupación:";
-    //crea una clase en css para qie este texto enste en bold
+    pTitleOcupacion.classList.add("bolder");
 
     const pOcupacion= document.createElement("p");
     pOcupacion.textContent= personaje.ocupacion;
@@ -147,6 +147,27 @@ const renderizarPersonaje = async () =>{
 
     divLinea3.appendChild(lineaH3);
 
+    const pTitleEstado= document.createElement("p");
+    pTitleEstado.textContent="Estado Civil:";
+    pTitleEstado.classList.add("bolder");
+
+    const pEstado= document.createElement("p");
+    pEstado.textContent= personaje.estadoCivil;
+
+    const divLinea4 = document.createElement("div");
+    divLinea4.classList.add("contenedor__linea");
+    const lineaH4= document.createElement("hr");
+    lineaH4.classList.add("linea-horizontal");
+
+    divLinea4.appendChild(lineaH4);
+
+    const pTitleFamilia= document.createElement("p");
+    pTitleFamilia.textContent="Familia:";
+    pTitleFamilia.classList.add("bolder");
+
+    const pFamilia= document.createElement("p");
+    pFamilia.textContent= personaje.familia;
+
 
     divContInfoTxt.appendChild(pTitleEdad);
     divContInfoTxt.appendChild(pEdad);
@@ -157,6 +178,11 @@ const renderizarPersonaje = async () =>{
     divContInfoTxt.appendChild(pTitleOcupacion);
     divContInfoTxt.appendChild(pOcupacion);
     divContInfoTxt.appendChild(divLinea3);
+    divContInfoTxt.appendChild(pTitleEstado);
+    divContInfoTxt.appendChild(pEstado);
+    divContInfoTxt.appendChild(divLinea4);
+    divContInfoTxt.appendChild(pTitleFamilia);
+    divContInfoTxt.appendChild(pFamilia);
     divContInfo.appendChild(divContInfoTxt);
 
     section.appendChild(divContInfo);
