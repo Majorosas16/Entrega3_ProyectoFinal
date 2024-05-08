@@ -374,6 +374,6 @@ nav {
     .pie-pagina .grupo-2{
         background-color: var(--color2);
         padding: 15px 10px;
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: center;
     }
