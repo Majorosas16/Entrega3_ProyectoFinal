@@ -53,10 +53,15 @@ const renderizarPersonaje = async () =>{
     img3.src=personaje.square3;
     img3.alt="img3";
 
+    const div = document.querySelector("#divAdd");
+
     fotosCont.appendChild(img1);
     fotosCont.appendChild(img2);
     fotosCont.appendChild(img3);
     section.appendChild(fotosCont);
+    section.appendChild(div);
+
+
 
     const divBio = document.createElement("div");
     divBio.classList.add("contenedor__Biografia");
