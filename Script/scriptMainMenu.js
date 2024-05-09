@@ -38,4 +38,7 @@ const render =async () => {
     await renderizarPersonaje();
 
 }
+
+
+
 document.addEventListener("DOMContentLoaded", render);
