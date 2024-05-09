@@ -132,10 +132,10 @@ justify-content: center;
 
 @keyframes carousel {
     0% {
-        background-position: 0 0, -1360px 0, 0 0; /* Empieza la primera imagen completamente visible */
+        background-position: 0 0, -1360px 0, 0 0; 
     }
     100% {
-        background-position: 1360px 0, 0 0, -1360px 0; /* Desplaza todas las imágenes hacia la izquierda */
+        background-position: 1360px 0, 0 0, -1360px 0; 
     }
 }
 
