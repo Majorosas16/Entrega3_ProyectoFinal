@@ -112,21 +112,33 @@ justify-content: center;
 
 /*Banner*/
 
-.banner{
-background-color: var(--color1);
-background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Fans.png?raw=true);
-background-repeat: no-repeat, repeat;
-background-size: 1360px 780px;
-width: 100%; /*Que abarque toda la pagina*/
-height: 780px;
-display: flex;
-position: relative;
-align-items: center;
-justify-content: space-between;
-flex-direction: row; /*Por default está así*/
-position: relative;
-
+.banner {
+    background-color: var(--color1);
+    /* Define dos imágenes de fondo */
+    background-image: url('https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Fans.png?raw=true'), 
+                      url('https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/KatnissBanner.png?raw=true');
+    
+    background-size: 1360px 780px, 1360px 780px, cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    animation: carousel 10s linear infinite; 
 }
+
+@keyframes carousel {
+    0% {
+        background-position: 0 0, -1360px 0, 0 0; /* Empieza la primera imagen completamente visible */
+    }
+    100% {
+        background-position: 1360px 0, 0 0, -1360px 0; /* Desplaza todas las imágenes hacia la izquierda */
+    }
+}
+
 
 .search{
     margin-top: 3rem;
@@ -201,7 +213,7 @@ align-items: center;
     position: relative;
     }
 
-.arrow{
+.arrow {
 display: flex;
 justify-content: center;
 width: 60%;
@@ -519,7 +531,7 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
         z-index: 1;
         position: absolute;
         left: 40%;
-        top: 315%;
+        top: 494%;
         transition: all 400ms ease;
         }
 
