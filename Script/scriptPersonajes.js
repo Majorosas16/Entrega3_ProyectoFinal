@@ -46,28 +46,17 @@ const renderizarCards = async (textoBusqueda) =>{
 
         if( textoLimpio === "" || item.nombre.toLowerCase().includes(textoLimpio)){
           Personaje.appendChild(card);
-          seEncontraronPersonajes=true
-       
+          seEncontraronPersonajes=true 
        }
 
      }
 
      if(!seEncontraronPersonajes){
-    const error = document.createElement("img");
-    error.src= "Resources/error.png";
-    error.alt= "error";
-    error.classList.add("ima");
-
-    const mensaje1 = document.createElement("H1");
-    mensaje1.textContent = "¡OOPS!";
-    mensaje1.classList.add("H1");
     
     const mensaje2 = document.createElement("p");
-    mensaje2.textContent = "No se encontró ningún personaje";
-    mensaje2.classList.add("p2");
+    mensaje2.textContent = "¡OOPS! No se encontró ningún personaje";
+    mensaje2.classList.add("p2Mensaje");
 
-    Personaje.appendChild(error);
-    Personaje.appendChild(mensaje1);
     Personaje.appendChild(mensaje2);
        }
 }
