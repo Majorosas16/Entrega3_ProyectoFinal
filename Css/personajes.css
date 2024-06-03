@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
 }
 
 nav {
@@ -140,6 +139,9 @@ nav {
 .sect_2{
     height: cal(100vh);
     position: relative;
+    display: flex;
+    flex-direction: column; /* Asegura que los hijos se dispongan en columna */
+    align-items: center; /* Alinea los elementos al centro si es necesario */
     
 }
 #personajeDiv{
@@ -219,14 +221,19 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
 .characters{
     margin-top: 2rem;
     background: #751B12;
-    width: 100%;
+    width: 100vw;
     flex-wrap: wrap; 
     display: flex;
     justify-content: center;
     align-items: start;
    transition: all 400ms ease;
+   cursor: pointer;
+   
 }
 
+.p2Mensaje {
+    color: aliceblue;
+}
 
 /* footer */
 
