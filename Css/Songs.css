@@ -80,43 +80,7 @@ nav {
 }
 
 .hover--1:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--2:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--3:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--4:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--5:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--6:hover a {
-    color: yellow;
-    transform: scale(1.1);
-    transition: color 0.3s ease, transform 0.3s ease;
-}
-
-.hover--7:hover a {
-    color: yellow;
+    color: var(--hover);
     transform: scale(1.1);
     transition: color 0.3s ease, transform 0.3s ease;
 }
