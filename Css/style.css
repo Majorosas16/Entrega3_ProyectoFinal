@@ -30,7 +30,7 @@ body {
 
 .contenedor__cajita--logo {
     position: absolute;
-    top: 50px; 
+    top: 30px; 
     left: 50%;
     transform: translateX(-50%) scale(0.7);
 }
@@ -41,6 +41,7 @@ body {
     font-weight: bold;
     text-align: center;
     margin-right: 1.9rem;
+    font-size: 1rem;
 }
 
 .p--rojo {
@@ -55,7 +56,7 @@ body {
 }
 
 .p--negroemail {
-    margin-top: 12rem;
+    margin-top: 11rem;
     margin-right: 1.6rem;
     font-size: 0.8rem;
     color: #000000;
@@ -103,7 +104,7 @@ body {
 .contenedor__cajita--bottomrecuerdame {
     position: relative;
     margin-top: -6rem;
-    margin-right: 10rem;
+    left: 4.4rem;
 }
 
 .contenedor__cajita--bottomrecuerdame input {
@@ -140,11 +141,12 @@ body {
     border-radius: 1.6rem;
     background: linear-gradient(45deg, #B75601, #D8B504); 
     color: #FFFFFF; 
-    font-size: 1rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 550;
     cursor: pointer;
     outline: none;
     transition: background 0.3s ease; 
+    margin-left: 9.2rem;
 }
 
 .contenedor__cajita--ingresar:hover {
@@ -174,6 +176,8 @@ body {
     scale: 1.1;
     margin-top: 0.5rem;
     color: black;
+    padding: 0.9rem;
+    margin-left: 10.35rem;
 }
 
 .contenedor__cajita--iconosredes .fab {
@@ -183,6 +187,8 @@ body {
 .contenedor__cajita--textofinal {
     font-size: 0.8rem;
     margin-top: 0.1rem;
+    padding: 1rem;
+    margin-left: 1rem;
 }
 
 .contenedor__cajita--textofinal__link {

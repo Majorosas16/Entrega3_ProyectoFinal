@@ -25,49 +25,53 @@
     <section>
         <div class="contenedor__cajita">
             <div class="contenedor__cajita--registro">
+
                 <p class="p--negro">Nombre de usuario</p>
                 <div class="contenedor__cajita--input">
                     <div>
-                    <input class="lineInput" type="text" placeholder="user1234" required>
+                        <input id="nombreUsuario" class="lineInput" type="text" placeholder="user1234" required>
                     </div>
                 </div>
                 <p class="p--negro2">Email</p>
                 <div class="contenedor__cajita--input">
                     <div>
-                    <input class="lineInput" type="email" placeholder="user123@gmail.com" required>
+                        <input id="email" class="lineInput" type="email" placeholder="user123@gmail.com" required>
                     </div>
                 </div>
                 <p class="p--negro3">Fecha de nacimiento</p>
                 <div class="contenedor__cajita--input">
                     <div>
-                    <input class="lineInput" type="date">
+                        <input id="fecha" class="lineInput" type="date">
                     </div>
                 </div>
                 <p class="p--negro4">Contraseña</p>
                 <div class="contenedor__cajita--input">
                     <div>
-                    <input class="lineInput" type="password" placeholder="*****" required>
+                        <input id="contrasena" class="lineInput" type="password" placeholder="*****" required>
                     </div>
                 </div>
             </div>
             <div class="contenedor__cajita2">
                 <div class="contenedor__cajita2--foto">
-                    <img src="Imagenes2/Silvana.png" alt="">
+                    <label for="fotoPerfil">
+                        <img id="imagenPerfil" src="Imagenes2/Silvana.png" alt="">
+                    </label>
+                    <!-- Input para cambiar la foto de perfil -->
+                    <input id="fotoPerfil" type="file" accept="image/*" style="display: none;">
                 </div>
-                <div class="contenedor__cajita2--texto">
-                    <p>Emma_Douce</p>
-                    <p>EmmaDouce@gmail.com</p>
-                </div>
+               
             </div>
     </section>
     
+    <!-- Cambiar el enlace a un botón para guardar cambios -->
     <div>
-        <a href="MainMenu.html"><button class="contenedor__cajita--ingresar">Guardar cambios</button></a>
+        <button id="guardarCambiosBtn" class="contenedor__cajita--ingresar">Guardar cambios</button>
     </div>
 </div>
 </section>
 </body>
 <footer>
+    <!-- Cambiar el script por el correcto -->
     <script src="Script/UserScript.js"></script>
 </footer>
 </html>

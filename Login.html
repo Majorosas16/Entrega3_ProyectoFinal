@@ -13,25 +13,32 @@
 <body class="contenedor">
     <section class="contenedor__cajita">
         <div class="contenedor__cajita--logo">
-            <img src="Imagenes1/Capa 2.png" alt="logo"></div>
-        <div class="contenedor__cajita--ini">
+            <img src="Imagenes1/Capa 2.png" alt="logo">
+        </div>
+       <form id="login">
+         <!-- iniciar sesión -->
+         <div class="contenedor__cajita--ini">
             <p class="p--rojo">INICIAR SESIÓN</p>
             <p class="p--negroemail">Email o nombre de usuario</p>
+            <!-- email -->
             <div class="contenedor__cajita--input">
                 <i class="fa fa-user icon"></i>
-                <input class="lineInput" type="email" placeholder="user123@gmail.com" required>
+                <input class="lineInput" id="email" type="email" placeholder="user123@gmail.com" required>
             </div>   
+            <!-- contraseña -->
             <p class="p--negrocontrasena">Contraseña</p>
             <div class="contenedor__cajita--input">
                 <i class="fa fa-lock icon"></i>
-                <input class="lineInput" type="password" placeholder="*****">
+                <input class="lineInput" id="contrasena" type="password" placeholder="*****">
             </div>                 
         </div>
+        <!-- Botón de recuerdame -->
         <div class="contenedor__cajita--bottomrecuerdame">
             <input type="checkbox" id="remember-me-checkbox" onclick="toggleRemember()">
             <label for="remember-me-checkbox"></label>
             <p class="rememberMeLabel">Recuérdame</p>
         </div>
+        <!-- Botón de ingresar -->
         <a href="MainMenu.html"><button class="contenedor__cajita--ingresar">Ingresar</button></a>
         <div class="linea">
             <div class="lineaMensaje"></div>
@@ -46,10 +53,11 @@
         <div>
             <p class="contenedor__cajita--textofinal">¿No te has unido a nuestro sinsajo?, ¿qué esperas?<a href="registro.html" class="contenedor__cajita--textofinal__link">Regístrate aquí</a> y únete a nuestra revolución.</p>
         </div>
+       </form>
     </section>
     <section class="img"></section>
 </body>
 <footer>
-    <script src="Script/script.js"></script>
+    <script type="module" src="Script/login.js"></script>
 </footer>
 </html>

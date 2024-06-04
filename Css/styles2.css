@@ -81,6 +81,21 @@ margin-top: 2rem;
     justify-content: end;
     align-items: center;
 }
+.cerrarSesion {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 3% 1.5%;    
+    font-weight: 530;
+    transition: all 200ms ease;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    height: 2rem;
+    width: 7rem;
+}
+.cerrarSesion:hover{ /*Al pararse que se coloque de diferente color*/
+    color: var(--hover);
+    font-weight: bold;
+}
 
 .link{
     text-decoration: none;

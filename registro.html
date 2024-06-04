@@ -14,44 +14,61 @@
     <section class="contenedor">
         <div class="contenedor__cajita">
             <div class="contenedor__cajita--logo">
-                <img src="Capa 2.png" alt="logo">
+                <img src="Imagenes1/Capa 2.png" alt="logo">
             </div>
-            <div class="contenedor__cajita--registro">
+            <form id="registro" class="contenedor__cajita--registro">
                 <p>REGISTRO</p>
+                <!-- Nombre -->
                 <p class="p--negro">Nombre de usuario</p>
                 <div class="contenedor__cajita--input">
                     <div>
                         <i class="fa fa-user icon"></i>
-                    <input class="lineInput" type="text" placeholder="user1234" required>
+                        <input class="lineInput" name="nombre" id="nombre" type="text" placeholder="user1234" required>
                     </div>
                 </div>
+                <!-- Email -->
                 <p class="p--negro2">Email</p>
                 <div class="contenedor__cajita--input">
                     <div>
                         <i class="fas fa-envelope"></i>
-                    <input class="lineInput" type="email" placeholder="user123@gmail.com" required>
+                        <input class="lineInput" name="email" id="email" type="email" placeholder="user123@gmail.com" required>
                     </div>
                 </div>
+                <!-- Fecha de nacimiento -->
                 <p class="p--negro3">Fecha de nacimiento</p>
                 <div class="contenedor__cajita--input">
                     <div>
                         <i class="far fa-calendar-alt"></i>
-                    <input class="lineInput" type="date">
+                        <input class="lineInput" name="fecha" id="fecha" type="date" required>
                     </div>
                 </div>
+                <!-- Contraseña -->
                 <p class="p--negro4">Contraseña</p>
                 <div class="contenedor__cajita--input">
                     <div>
                         <i class="fa fa-lock icon"></i>
-                    <input class="lineInput" type="password" placeholder="*****" required>
+                        <input class="lineInput" name="contrasena" id="contrasena" type="password" placeholder="*****" required>
                     </div>
                 </div>
+                <!-- Confirmación -->
                 <div>
-                    <a href="MainMenu.html"><button class="contenedor__cajita--ingresar">Ingresar</button></a>
+                    <p class="p--negro5">Confirmar contraseña</p>
+                    <div class="contenedor__cajita--input">
+                        <div>
+                            <i class="fa fa-lock icon"></i>
+                            <input class="lineInput" name="confirmar" id="confirmar" type="password" placeholder="*****" required>
+                        </div>
+                    </div>
                 </div>
-            </div>
-           
+                <!-- Botón -->
+                <div>
+                    <button type="submit" class="contenedor__cajita--ingresar">Ingresar</button>
+                </div>
+            </form>
         </div>
     </section>
 </body>
+<footer>
+    <script type="module" src="Script/registro.js"></script>
+</footer>
 </html>
