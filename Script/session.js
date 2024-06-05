@@ -70,3 +70,4 @@ export const obtenerUsuarioEnSesion = () => {
 export const logout = () => {
     localStorage.removeItem(USUARIO_ACTIVO_KEY);
 }
+

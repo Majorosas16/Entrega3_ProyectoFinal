@@ -41,13 +41,6 @@ const render =async () => {
 }
 
 const render2 = () => {
-    const usuarioActivo = obtenerUsuarioEnSesion();
-   console.log(usuarioActivo);
-   if(!usuarioActivo) {
-    window.location.href = "./index.html";
-    return;
-   }
-
    const cerrarSesion = document.querySelector("#cerrarSesion");
    cerrarSesion.addEventListener("click", () => {
     logout();

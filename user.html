@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="Css/UserS.css" type="text/css">
@@ -13,7 +13,7 @@
 <body class="contenedor">
     <section class="contenedor__banner--logo">
         <div>
-            <a href="MainMenu.html"><img src="Imagenes1/Recurso 7 1.png"  alt="logo" ></a>
+            <a href="MainMenu.html"><img src="Imagenes2/Recurso 7 1.png"  alt="logo" ></a>
         </div>
     </section>
     <section class="contenedor__barraTexto">
@@ -25,31 +25,32 @@
     <section>
         <div class="contenedor__cajita">
             <div class="contenedor__cajita--registro">
-
-                <p class="p--negro">Nombre de usuario</p>
-                <div class="contenedor__cajita--input">
-                    <div>
-                        <input id="nombreUsuario" class="lineInput" type="text" placeholder="user1234" required>
+                <form id="userForm">
+                    <p class="p--negro">Nombre de usuario</p>
+                    <div class="contenedor__cajita--input">
+                        <div>
+                            <input id="nombreUsuario" class="lineInput" type="text" placeholder="user1234" required>
+                        </div>
                     </div>
-                </div>
-                <p class="p--negro2">Email</p>
-                <div class="contenedor__cajita--input">
-                    <div>
-                        <input id="email" class="lineInput" type="email" placeholder="user123@gmail.com" required>
+                    <p class="p--negro2">Email</p>
+                    <div class="contenedor__cajita--input">
+                        <div>
+                            <input id="email" class="lineInput" type="email" placeholder="user123@gmail.com" required>
+                        </div>
                     </div>
-                </div>
-                <p class="p--negro3">Fecha de nacimiento</p>
-                <div class="contenedor__cajita--input">
-                    <div>
-                        <input id="fecha" class="lineInput" type="date">
+                    <p class="p--negro3">Fecha de nacimiento</p>
+                    <div class="contenedor__cajita--input">
+                        <div>
+                            <input id="fecha" class="lineInput" type="date">
+                        </div>
                     </div>
-                </div>
-                <p class="p--negro4">Contraseña</p>
-                <div class="contenedor__cajita--input">
-                    <div>
-                        <input id="contrasena" class="lineInput" type="password" placeholder="*****" required>
+                    <p class="p--negro4">Contraseña</p>
+                    <div class="contenedor__cajita--input">
+                        <div>
+                            <input id="contrasena" class="lineInput" type="password" placeholder="*****" required>
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
             <div class="contenedor__cajita2">
                 <div class="contenedor__cajita2--foto">
@@ -59,19 +60,22 @@
                     <!-- Input para cambiar la foto de perfil -->
                     <input id="fotoPerfil" type="file" accept="image/*" style="display: none;">
                 </div>
-               
+                <!-- Información del usuario registrado -->
+                <div id="userInfo" class="user-info">
+                    <p id="userInfoName">Nombre: </p>
+                    <p id="userInfoEmail">Email: </p>
+                    <p id="userInfoBirthdate">Fecha de nacimiento: </p>
+                </div>
             </div>
+            
     </section>
-    
-    <!-- Cambiar el enlace a un botón para guardar cambios -->
+    <!-- Botón para guardar cambios -->
     <div>
         <button id="guardarCambiosBtn" class="contenedor__cajita--ingresar">Guardar cambios</button>
     </div>
-</div>
-</section>
+    <footer>
+        <!-- Script para interactuar con el formulario -->
+        <script type="module" src="Script/UserScript.js"></script>
+    </footer>
 </body>
-<footer>
-    <!-- Cambiar el script por el correcto -->
-    <script src="Script/UserScript.js"></script>
-</footer>
 </html>
