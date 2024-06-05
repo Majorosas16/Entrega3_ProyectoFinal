@@ -122,15 +122,20 @@ margin-top: 2rem;
     padding-right: 3rem;
 }
 
-.user{
-position: absolute;
-width: 6%;
-background-color: none;
-transition: all .3s;
-display: flex;
-justify-content: center;
+.user {
+    position: absolute;
+    background-color: none;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%; 
+    overflow: hidden; 
 }
 
+.user img {
+    width: 70px; 
+    height: 70px;
+}
 .user:hover{
     transform: scale(1.2);   
 }
@@ -564,21 +569,21 @@ box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.434) ;
             font-weight: bold;
         }
     
-    .Cont{
-        border-top: 10px solid var(--hover3);
-        background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/majo.png?raw=true);
-        background-repeat: no-repeat;
-        background-size: 1360px 780px;
-        height: 100vh;
-        position: relative;
-
-    }
+        .Cont{
+            border-top: 10px solid var(--hover3);
+            background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/majo.png?raw=true);
+            background-repeat: no-repeat;
+            background-size: 1600px 900px;
+            height: 100vh;
+            position: relative;
+    
+        }
 
     .Cont2{
         border-bottom: 10px solid var(--hover3);
         background-image: url(https://github.com/Majorosas16/Entrega3_ProyectoFinal/blob/main/recursos/Silvi.png?raw=true);
         background-repeat: no-repeat;
-        background-size: 1360px 780px;
+        background-size: 1600px 900px;
         height: 100vh;
         position: relative;
     }

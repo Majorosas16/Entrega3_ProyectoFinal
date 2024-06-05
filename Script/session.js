@@ -1,5 +1,3 @@
-// Aquí esto se usa para saber que si hay un error en el login
-
 const USUARIOS_KEY = "usuarios";
 const USUARIO_ACTIVO_KEY = "usuario-activo";
 
@@ -13,22 +11,34 @@ const obtenerUsuarios = () => {
     return JSON.parse(usuarios);
 };
 
-// creo errores posibles para cubrirlos (en este caso es si la password no concuerda y el correo)
+// Actualiza la información del usuario en el localStorage
+export const actualizarUsuario = (usuarioActualizado) => {
+    const usuarios = obtenerUsuarios();
+    const indice = usuarios.findIndex(usuario => usuario.id === usuarioActualizado.id);
+    if (indice !== -1) {
+        usuarios[indice] = usuarioActualizado;
+        localStorage.setItem(USUARIOS_KEY, JSON.stringify(usuarios));
+    } else {
+        throw new Error("Usuario no encontrado");
+    }
+};
 
-export const registrar = (email, fecha, contrasena, confirmar) => {
-    if(contrasena !== confirmar) {
+// Registra un nuevo usuario
+export const registrar = (nombre, email, fecha, contrasena, confirmar) => {
+    if (contrasena !== confirmar) {
         throw new Error("Las contraseñas no coinciden");
     }
 
     const usuarios = obtenerUsuarios();
-    for(const usuario of usuarios) {
-        if(usuario.email === email) {
+    for (const usuario of usuarios) {
+        if (usuario.email === email) {
             throw new Error("El correo ya se encuentra registrado");
         }
     }
 
     usuarios.push({
         id: new Date().getTime(),
+        nombre: nombre,
         email: email,
         fecha: fecha,
         contrasena: contrasena,
@@ -38,28 +48,30 @@ export const registrar = (email, fecha, contrasena, confirmar) => {
     localStorage.setItem(USUARIOS_KEY, JSON.stringify(usuarios));
 };
 
-export const login = (email, contrasena,) => {
+// Iniciar sesión
+export const login = (email, contrasena) => {
     const usuarios = obtenerUsuarios();
-    for(const usuario of usuarios) {
-        if(usuario.email === email && usuario.contrasena === contrasena) {
+    for (const usuario of usuarios) {
+        if (usuario.email === email && usuario.contrasena === contrasena) {
             localStorage.setItem(USUARIO_ACTIVO_KEY, usuario.id);
             return usuario;
         }
-    };
+    }
 
-    throw new Error("usuario y/o contraseña incorrectos");
+    throw new Error("Usuario y/o contraseña incorrectos");
 };
 
+// Obtiene el usuario en sesión
 export const obtenerUsuarioEnSesion = () => {
     const usuarioActivo = localStorage.getItem(USUARIO_ACTIVO_KEY);
 
-    if(!usuarioActivo) {
+    if (!usuarioActivo) {
         return null;
     }
 
     const usuarios = obtenerUsuarios();
-    for(const usuario of usuarios) {
-        if (usuario.id === parseInt (usuarioActivo)) {
+    for (const usuario of usuarios) {
+        if (usuario.id === parseInt(usuarioActivo)) {
             return usuario;
         }
     }
@@ -67,7 +79,7 @@ export const obtenerUsuarioEnSesion = () => {
     return null;
 };
 
+// Cerrar sesión
 export const logout = () => {
     localStorage.removeItem(USUARIO_ACTIVO_KEY);
 }
-
