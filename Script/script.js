@@ -1,45 +1,25 @@
-function toggleRemember() {
-    var checkbox = document.getElementById("remember-me-checkbox");
-}
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Encuentra todos los checkboxes
+    let favoritosCheckboxes = document.querySelectorAll('.favorite-checkbox');
+    
+    // Inicializa un objeto para guardar los favoritos
+    let favoritos = {};
 
-import { cargaInformacion, Personaje } from "./utils.js";
-const renderizarPersonajes = async () =>{
+    // Añade un event listener a cada checkbox
+    favoritosCheckboxes.forEach((checkbox, index) => {
+        // Asigna el estado inicial basado en localStorage o default false
+        let isChecked = JSON.parse(localStorage.getItem(checkbox.id)) || false;
+        checkbox.checked = isChecked; // Establece el estado inicial del checkbox
+        favoritos[checkbox.id] = isChecked; // Guarda el estado inicial en el objeto
 
-    const data = await cargaInformacion();
-    console.log(data);
+        checkbox.addEventListener('change', (e) => {
+            // Actualiza el objeto de favoritos con el nuevo estado
+            favoritos[checkbox.id] = e.target.checked;
+            
+            // Guarda el estado en localStorage para persistencia
+            localStorage.setItem(checkbox.id, e.target.checked);
+        });
+    });
 
-    const personajeDiv = document.querySelector("#personajeDiv");
-    personajeDiv.classList.add("characters");
-
-    for (const perso of data){
-
-        const instanciaPersonaje= new Personaje(
-            perso.id,
-            perso.nombre,
-            perso.distrito,
-            perso.biografia1,
-            perso.biografia2,
-            perso.biografia3,
-            perso.edad,
-            perso.genero,
-            perso.alias,
-            perso.ocupacion,
-            perso.estadoCivil,
-            perso.familia,
-            perso.squareImage,  
-        );
-
-        const personajeRender = instanciaPersonaje.render();
-
-        personajeDiv.appendChild(personajeRender);
-        instanciaPersonaje.addEventListeners();
-
-    }
-
-}
-
-const render = async () => {
-    await renderizarPersonajes();
-};
-
-document.addEventListener("DOMContentLoaded", render);
+    console.log(favoritos); // Puedes eliminar esta línea, solo es para demostración
+});

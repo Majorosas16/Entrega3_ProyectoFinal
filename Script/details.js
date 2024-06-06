@@ -1,11 +1,12 @@
 import {personajePorId} from "./utilsMainMenu.js"
 
-const renderizarPersonaje = async () =>{
 
-        //Sincronizar el id
-        const params = new URLSearchParams(window.location.search);
-        const id =params.get("id");
-        const personaje = await personajePorId(id);
+const renderizarPersonaje = async () =>{
+    
+     //Sincronizar el id
+    const params = new URLSearchParams(window.location.search);
+    const id =params.get("id");
+    const personaje = await personajePorId(id);
 
     //Para que en el header se ajuste con el personaje tocado
     const headTitle= document.querySelector("#headTitle");
@@ -271,4 +272,33 @@ const render =async () => {
         secPersonaje.appendChild(card);
 
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    
+    let favoritosCheckboxes = document.querySelectorAll('.favorite-checkbox');
+    
+    
+    let favoritos = {};
+
+    
+    favoritosCheckboxes.forEach((checkbox, index) => {
+       
+        let isChecked = JSON.parse(localStorage.getItem(checkbox.id)) || false;
+        checkbox.checked = isChecked; 
+        favoritos[checkbox.id] = isChecked; 
+
+        checkbox.addEventListener('change', (e) => {
+            
+            favoritos[checkbox.id] = e.target.checked;
+            
+            
+            localStorage.setItem(checkbox.id, e.target.checked);
+        });
+    });
+
+    console.log(favoritos); 
+});
+
+
+
 document.addEventListener("DOMContentLoaded", render);
