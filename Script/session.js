@@ -83,3 +83,34 @@ export const obtenerUsuarioEnSesion = () => {
 export const logout = () => {
     localStorage.removeItem(USUARIO_ACTIVO_KEY);
 }
+
+// Añadir favorito al usuario en sesión
+export const añadirFavorito = (favorito) => {
+    const usuario = obtenerUsuarioEnSesion();
+    if (!usuario) {
+        throw new Error("No hay usuario en sesión");
+    }
+    if (!usuario.favoritos.includes(favorito)) {
+        usuario.favoritos.push(favorito);
+        actualizarUsuario(usuario);
+    }
+};
+
+// Eliminar favorito del usuario en sesión
+export const eliminarFavorito = (favorito) => {
+    const usuario = obtenerUsuarioEnSesion();
+    if (!usuario) {
+        throw new Error("No hay usuario en sesión");
+    }
+    const index = usuario.favoritos.indexOf(favorito);
+    if (index !== -1) {
+        usuario.favoritos.splice(index, 1);
+        actualizarUsuario(usuario);
+    }
+};
+
+// Obtener favoritos del usuario en sesión
+export const obtenerFavoritosUsuario = () => {
+    const usuario = obtenerUsuarioEnSesion();
+    return usuario ? usuario.favoritos : [];
+};

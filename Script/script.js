@@ -1,23 +1,26 @@
+import { obtenerFavoritosUsuario, añadirFavorito, eliminarFavorito } from './session.js';
+
 document.addEventListener('DOMContentLoaded', (event) => {
     // Encuentra todos los checkboxes
     let favoritosCheckboxes = document.querySelectorAll('.favorite-checkbox');
-    
-    // Inicializa un objeto para guardar los favoritos
-    let favoritos = {};
+
+    // Obtener los favoritos del usuario en sesión
+    const favoritos = obtenerFavoritosUsuario();
 
     // Añade un event listener a cada checkbox
-    favoritosCheckboxes.forEach((checkbox, index) => {
-        // Asigna el estado inicial basado en localStorage o default false
-        let isChecked = JSON.parse(localStorage.getItem(checkbox.id)) || false;
+    favoritosCheckboxes.forEach((checkbox) => {
+        // Asigna el estado inicial basado en los favoritos del usuario
+        const isChecked = favoritos.includes(checkbox.id);
         checkbox.checked = isChecked; // Establece el estado inicial del checkbox
-        favoritos[checkbox.id] = isChecked; // Guarda el estado inicial en el objeto
 
         checkbox.addEventListener('change', (e) => {
-            // Actualiza el objeto de favoritos con el nuevo estado
-            favoritos[checkbox.id] = e.target.checked;
-            
-            // Guarda el estado en localStorage para persistencia
-            localStorage.setItem(checkbox.id, e.target.checked);
+            if (e.target.checked) {
+                // Añadir a favoritos
+                añadirFavorito(checkbox.id);
+            } else {
+                // Eliminar de favoritos
+                eliminarFavorito(checkbox.id);
+            }
         });
     });
 
